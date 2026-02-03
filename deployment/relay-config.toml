@@ -1,0 +1,65 @@
+# Nostr Relay Configuration for Ostia
+# This configuration is optimized for private messaging
+
+[server]
+# Listen on all interfaces
+host = "0.0.0.0"
+port = 9200
+
+# Rate limiting
+rate_limit = 100  # requests per minute
+rate_limit_sub = 100  # subscriptions per minute
+
+# Logging
+log_level = "info"
+
+[database]
+# SQLite database path
+path = "/data/relay.db"
+
+[options]
+# Enable NIP-17 (Gift Wrap) support
+nip17 = true
+
+# Enable NIP-44 (Encryption) support
+nip44 = true
+
+# Enable NIP-65 (Relay List Metadata)
+nip65 = true
+
+# Enable NIP-98 (HTTP Auth)
+nip98 = true
+
+# Enable NIP-96 (Media Server)
+nip96 = true
+
+# Require payment for spam protection (optional)
+# payment_required = false
+
+# Max event size in bytes
+max_event_size = 65536
+
+# Max message size in bytes
+max_message_size = 65536
+
+# Event expiration (in seconds) - 30 days
+event_expiration = 2592000
+
+# Storage limits
+# max_events_per_author = 10000
+
+# NIP-17 Gift Wrap specific
+[nip17]
+# Allow unsealed gift wraps (for compatibility)
+allow_unsealed = false
+
+# NIP-44 specific
+[nip44]
+# Allow unencrypted messages (for compatibility)
+allow_unencrypted = false
+
+# CORS settings for web clients
+[cors]
+allowed_origins = ["*"]
+allowed_methods = ["GET", "POST", "OPTIONS"]
+allowed_headers = ["*"]

@@ -1,0 +1,230 @@
+﻿{
+    "name":  "nostr-relay-pool",
+    "version":  "0.38.0",
+    "id":  "registry+https://github.com/rust-lang/crates.io-index#nostr-relay-pool@0.38.0",
+    "license":  "MIT",
+    "license_file":  null,
+    "description":  "Nostr Relay Pool",
+    "source":  "registry+https://github.com/rust-lang/crates.io-index",
+    "dependencies":  [
+                         {
+                             "name":  "async-utility",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "async-wsocket",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.12",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "socks"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "atomic-destructor",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "negentropy",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.4",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "negentropy",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  "negentropy-deprecated",
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-database",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "\u003e=1.37",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "macros",
+                                              "sync"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tracing",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.1",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-relay-builder",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tracing-subscriber",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "env-filter"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         }
+                     ],
+    "targets":  [
+                    {
+                        "kind":  [
+                                     "lib"
+                                 ],
+                        "crate_types":  [
+                                            "lib"
+                                        ],
+                        "name":  "nostr_relay_pool",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-relay-pool-0.38.0\\src\\lib.rs",
+                        "edition":  "2021",
+                        "doc":  true,
+                        "doctest":  true,
+                        "test":  true
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "pool",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-relay-pool-0.38.0\\examples\\pool.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    }
+                ],
+    "features":  {
+                     "default":  [
+
+                                 ],
+                     "nip11":  [
+                                   "nostr/nip11"
+                               ],
+                     "tor":  [
+                                 "async-wsocket/tor"
+                             ]
+                 },
+    "manifest_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-relay-pool-0.38.0\\Cargo.toml",
+    "metadata":  null,
+    "publish":  null,
+    "authors":  [
+                    "Yuki Kishimoto \u003cyukikishimoto@protonmail.com\u003e",
+                    "Rust Nostr Developers"
+                ],
+    "categories":  [
+
+                   ],
+    "keywords":  [
+                     "nostr",
+                     "relay",
+                     "pool"
+                 ],
+    "readme":  "README.md",
+    "repository":  "https://github.com/rust-nostr/nostr.git",
+    "homepage":  "https://github.com/rust-nostr/nostr",
+    "documentation":  null,
+    "edition":  "2021",
+    "links":  null,
+    "default_run":  null,
+    "rust_version":  "1.70.0"
+}

@@ -1,0 +1,209 @@
+﻿{
+    "name":  "tauri-plugin-clipboard-manager",
+    "version":  "2.3.2",
+    "id":  "registry+https://github.com/rust-lang/crates.io-index#tauri-plugin-clipboard-manager@2.3.2",
+    "license":  "Apache-2.0 OR MIT",
+    "license_file":  null,
+    "description":  "Read and write to the system clipboard.",
+    "source":  "registry+https://github.com/rust-lang/crates.io-index",
+    "dependencies":  [
+                         {
+                             "name":  "log",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.4",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "serde",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^1",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "derive"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "serde_json",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^1",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tauri",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^2.8.2",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "thiserror",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^2",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tauri-plugin",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^2.4",
+                             "kind":  "build",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "build"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "arboard",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "wayland-data-control"
+                                          ],
+                             "target":  "cfg(any(target_os = \"macos\", windows, target_os = \"linux\", target_os = \"dragonfly\", target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tauri",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^2.8.2",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "wry"
+                                          ],
+                             "target":  "cfg(target_os = \"ios\")",
+                             "registry":  null
+                         }
+                     ],
+    "targets":  [
+                    {
+                        "kind":  [
+                                     "lib"
+                                 ],
+                        "crate_types":  [
+                                            "lib"
+                                        ],
+                        "name":  "tauri_plugin_clipboard_manager",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-plugin-clipboard-manager-2.3.2\\src\\lib.rs",
+                        "edition":  "2021",
+                        "doc":  true,
+                        "doctest":  true,
+                        "test":  true
+                    },
+                    {
+                        "kind":  [
+                                     "custom-build"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "build-script-build",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-plugin-clipboard-manager-2.3.2\\build.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    }
+                ],
+    "features":  {
+
+                 },
+    "manifest_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-plugin-clipboard-manager-2.3.2\\Cargo.toml",
+    "metadata":  {
+                     "docs":  {
+                                  "rs":  {
+                                             "targets":  [
+                                                             "x86_64-unknown-linux-gnu",
+                                                             "x86_64-linux-android"
+                                                         ]
+                                         }
+                              },
+                     "platforms":  {
+                                       "support":  {
+                                                       "windows":  {
+                                                                       "level":  "full",
+                                                                       "notes":  ""
+                                                                   },
+                                                       "linux":  {
+                                                                     "level":  "full",
+                                                                     "notes":  ""
+                                                                 },
+                                                       "macos":  {
+                                                                     "level":  "full",
+                                                                     "notes":  ""
+                                                                 },
+                                                       "android":  {
+                                                                       "level":  "partial",
+                                                                       "notes":  "Only plain-text content support"
+                                                                   },
+                                                       "ios":  {
+                                                                   "level":  "partial",
+                                                                   "notes":  "Only plain-text content support"
+                                                               }
+                                                   }
+                                   }
+                 },
+    "publish":  null,
+    "authors":  [
+                    "Tauri Programme within The Commons Conservancy"
+                ],
+    "categories":  [
+
+                   ],
+    "keywords":  [
+
+                 ],
+    "readme":  "README.md",
+    "repository":  "https://github.com/tauri-apps/plugins-workspace",
+    "homepage":  null,
+    "documentation":  null,
+    "edition":  "2021",
+    "links":  "tauri-plugin-clipboard-manager",
+    "default_run":  null,
+    "rust_version":  "1.77.2"
+}

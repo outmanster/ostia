@@ -1,0 +1,17 @@
+{
+  "$schema": "../gen/schemas/mobile-schema.json",
+  "identifier": "mobile",
+  "description": "Capability for mobile platforms",
+  "platforms": [
+    "iOS",
+    "android"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "barcode-scanner:default",
+    "notification:default",
+    "dialog:default",
+    "fs:default"
+  ]
+}

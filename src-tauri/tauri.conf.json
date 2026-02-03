@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Ostia",
+  "version": "1.0.0",
+  "identifier": "cc.opensaas.ostia",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Ostia",
+        "width": 900,
+        "height": 650,
+        "minWidth": 360,
+        "minHeight": 500,
+        "resizable": true,
+        "transparent": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https:; connect-src 'self' wss: https:; media-src 'self' blob: data:"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico",
+      "icons/icon_android.png",
+      "icons/icon_ios.png"
+    ],
+    "resources": [],
+    "copyright": "2026 Ostia Team",
+    "category": "SocialNetworking",
+    "shortDescription": "Privacy-first Nostr messenger",
+    "longDescription": "Ostia is a cross-platform instant messaging application built on the Nostr protocol with end-to-end encryption and privacy-first design.",
+    "linux": {
+      "deb": {
+        "depends": [
+          "libgtk-3-0",
+          "libwebkit2gtk-4.1-0",
+          "libappindicator3-1"
+        ]
+      },
+      "appimage": {
+        "bundleMediaFramework": true
+      }
+    },
+    "windows": {
+      "certificateThumbprint": null,
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper"
+      }
+    },
+    "macOS": {
+      "frameworks": []
+    },
+    "iOS": {
+      "frameworks": []
+    },
+    "android": {
+      "minSdkVersion": 24,
+      "versionCode": 2
+    }
+  },
+  "plugins": {}
+}

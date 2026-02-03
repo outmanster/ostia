@@ -1,0 +1,1627 @@
+﻿ostia v0.1.0 (D:\Project\Ostia\src-tauri)
+鈹溾攢鈹€ aes-gcm v0.10.3
+鈹?  鈹溾攢鈹€ aead v0.5.2
+鈹?  鈹?  鈹溾攢鈹€ crypto-common v0.1.7
+鈹?  鈹?  鈹?  鈹溾攢鈹€ generic-array v0.14.7
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ typenum v1.19.0
+鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ version_check v0.9.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rand_core v0.6.4
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ getrandom v0.2.16
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹斺攢鈹€ typenum v1.19.0
+鈹?  鈹?  鈹斺攢鈹€ generic-array v0.14.7 (*)
+鈹?  鈹溾攢鈹€ aes v0.8.4
+鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹溾攢鈹€ cipher v0.4.4
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crypto-common v0.1.7 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ inout v0.1.4
+鈹?  鈹?  鈹?      鈹溾攢鈹€ block-padding v0.3.3
+鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ generic-array v0.14.7 (*)
+鈹?  鈹?  鈹?      鈹斺攢鈹€ generic-array v0.14.7 (*)
+鈹?  鈹?  鈹斺攢鈹€ cpufeatures v0.2.17
+鈹?  鈹溾攢鈹€ cipher v0.4.4 (*)
+鈹?  鈹溾攢鈹€ ctr v0.9.2
+鈹?  鈹?  鈹斺攢鈹€ cipher v0.4.4 (*)
+鈹?  鈹溾攢鈹€ ghash v0.5.1
+鈹?  鈹?  鈹溾攢鈹€ opaque-debug v0.3.1
+鈹?  鈹?  鈹斺攢鈹€ polyval v0.6.2
+鈹?  鈹?      鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?      鈹溾攢鈹€ cpufeatures v0.2.17
+鈹?  鈹?      鈹溾攢鈹€ opaque-debug v0.3.1
+鈹?  鈹?      鈹斺攢鈹€ universal-hash v0.5.1
+鈹?  鈹?          鈹溾攢鈹€ crypto-common v0.1.7 (*)
+鈹?  鈹?          鈹斺攢鈹€ subtle v2.6.1
+鈹?  鈹斺攢鈹€ subtle v2.6.1
+鈹溾攢鈹€ argon2 v0.5.3
+鈹?  鈹溾攢鈹€ base64ct v1.8.2
+鈹?  鈹溾攢鈹€ blake2 v0.10.6
+鈹?  鈹?  鈹斺攢鈹€ digest v0.10.7
+鈹?  鈹?      鈹溾攢鈹€ block-buffer v0.10.4
+鈹?  鈹?      鈹?  鈹斺攢鈹€ generic-array v0.14.7 (*)
+鈹?  鈹?      鈹溾攢鈹€ crypto-common v0.1.7 (*)
+鈹?  鈹?      鈹斺攢鈹€ subtle v2.6.1
+鈹?  鈹溾攢鈹€ cpufeatures v0.2.17
+鈹?  鈹斺攢鈹€ password-hash v0.5.0
+鈹?      鈹溾攢鈹€ base64ct v1.8.2
+鈹?      鈹溾攢鈹€ rand_core v0.6.4 (*)
+鈹?      鈹斺攢鈹€ subtle v2.6.1
+鈹溾攢鈹€ async-wsocket v0.12.0
+鈹?  鈹溾攢鈹€ futures-util v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-io v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-task v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ pin-utils v0.1.0
+鈹?  鈹?  鈹斺攢鈹€ slab v0.4.11
+鈹?  鈹溾攢鈹€ tokio v1.49.0
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228
+鈹?  鈹?  鈹?      鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?      鈹斺攢鈹€ serde_derive v1.0.228 (proc-macro)
+鈹?  鈹?  鈹?          鈹溾攢鈹€ proc-macro2 v1.0.105
+鈹?  鈹?  鈹?          鈹?  鈹斺攢鈹€ unicode-ident v1.0.22
+鈹?  鈹?  鈹?          鈹溾攢鈹€ quote v1.0.43
+鈹?  鈹?  鈹?          鈹?  鈹斺攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?          鈹斺攢鈹€ syn v2.0.114
+鈹?  鈹?  鈹?              鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?              鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?              鈹斺攢鈹€ unicode-ident v1.0.22
+鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹溾攢鈹€ mio v1.1.1
+鈹?  鈹?  鈹?  鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹溾攢鈹€ parking_lot v0.12.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ lock_api v0.4.14
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ scopeguard v1.2.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ parking_lot_core v0.9.12
+鈹?  鈹?  鈹?      鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?      鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?      鈹斺攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ signal-hook-registry v1.4.8
+鈹?  鈹?  鈹?  鈹溾攢鈹€ errno v0.3.14
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹溾攢鈹€ socket2 v0.6.1
+鈹?  鈹?  鈹?  鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹斺攢鈹€ tokio-macros v2.6.0 (proc-macro)
+鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹溾攢鈹€ tokio-rustls v0.26.4
+鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36
+鈹?  鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ring v0.17.14
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ getrandom v0.2.16 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ untrusted v0.9.0
+鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cc v1.2.51
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ find-msvc-tools v0.1.6
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ shlex v1.3.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zeroize v1.8.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-webpki v0.103.8
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ring v0.17.14 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ untrusted v0.9.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ subtle v2.6.1
+鈹?  鈹?  鈹?  鈹斺攢鈹€ zeroize v1.8.2
+鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ tokio-socks v0.5.2
+鈹?  鈹?  鈹溾攢鈹€ either v1.15.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹溾攢鈹€ thiserror v1.0.69
+鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror-impl v1.0.69 (proc-macro)
+鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ tokio-tungstenite v0.24.0
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36 (*)
+鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio-rustls v0.26.4 (*)
+鈹?  鈹?  鈹溾攢鈹€ tungstenite v0.24.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ byteorder v1.5.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ data-encoding v2.9.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ http v1.4.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹溾攢鈹€ httparse v1.10.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rand v0.8.5
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rand_chacha v0.3.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ppv-lite86 v0.2.21
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerocopy v0.8.33
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ zerocopy-derive v0.8.33 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rand_core v0.6.4 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rand_core v0.6.4 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sha1 v0.10.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cpufeatures v0.2.17
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ digest v0.10.7 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v1.0.69 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ utf-8 v0.7.6
+鈹?  鈹?  鈹斺攢鈹€ webpki-roots v0.26.11
+鈹?  鈹?      鈹斺攢鈹€ webpki-roots v1.0.5
+鈹?  鈹?          鈹斺攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹斺攢鈹€ url v2.5.8
+鈹?      鈹溾攢鈹€ form_urlencoded v1.2.2
+鈹?      鈹?  鈹斺攢鈹€ percent-encoding v2.3.2
+鈹?      鈹溾攢鈹€ idna v1.1.0
+鈹?      鈹?  鈹溾攢鈹€ idna_adapter v1.2.1
+鈹?      鈹?  鈹?  鈹溾攢鈹€ icu_normalizer v2.1.1
+鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_collections v2.1.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ potential_utf v0.1.4
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ yoke v0.8.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ stable_deref_trait v1.2.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ yoke-derive v0.8.1 (proc-macro)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ syn v2.0.114 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ synstructure v0.13.2
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ zerofrom v0.1.6
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ zerofrom-derive v0.1.6 (proc-macro)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?          鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?          鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?          鈹溾攢鈹€ syn v2.0.114 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹?          鈹斺攢鈹€ synstructure v0.13.2 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ zerovec-derive v0.11.2 (proc-macro)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_normalizer_data v2.1.1
+鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_provider v2.1.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_locale_core v2.1.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ litemap v0.8.1
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ tinystr v0.8.2
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ writeable v0.6.2
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ writeable v0.6.2
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerotrie v0.2.3
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerofrom v0.1.6 (*)
+鈹?      鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?      鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹?  鈹斺攢鈹€ icu_properties v2.1.2
+鈹?      鈹?  鈹?      鈹溾攢鈹€ icu_collections v2.1.1 (*)
+鈹?      鈹?  鈹?      鈹溾攢鈹€ icu_locale_core v2.1.1 (*)
+鈹?      鈹?  鈹?      鈹溾攢鈹€ icu_properties_data v2.1.2
+鈹?      鈹?  鈹?      鈹溾攢鈹€ icu_provider v2.1.1 (*)
+鈹?      鈹?  鈹?      鈹溾攢鈹€ zerotrie v0.2.3 (*)
+鈹?      鈹?  鈹?      鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?      鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?      鈹?  鈹斺攢鈹€ utf8_iter v1.0.4
+鈹?      鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?      鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?      鈹斺攢鈹€ serde_derive v1.0.228 (proc-macro) (*)
+鈹溾攢鈹€ dirs v6.0.0
+鈹?  鈹斺攢鈹€ dirs-sys v0.5.0
+鈹?      鈹溾攢鈹€ libc v0.2.179
+鈹?      鈹斺攢鈹€ option-ext v0.2.0
+鈹溾攢鈹€ hex v0.4.3
+鈹溾攢鈹€ image v0.25.9
+鈹?  鈹溾攢鈹€ bytemuck v1.24.0
+鈹?  鈹溾攢鈹€ byteorder-lite v0.1.0
+鈹?  鈹溾攢鈹€ color_quant v1.1.0
+鈹?  鈹溾攢鈹€ exr v1.74.0
+鈹?  鈹?  鈹溾攢鈹€ bit_field v0.10.3
+鈹?  鈹?  鈹溾攢鈹€ half v2.7.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹斺攢鈹€ zerocopy v0.8.33 (*)
+鈹?  鈹?  鈹溾攢鈹€ lebe v0.5.3
+鈹?  鈹?  鈹溾攢鈹€ miniz_oxide v0.8.9
+鈹?  鈹?  鈹?  鈹溾攢鈹€ adler2 v2.0.1
+鈹?  鈹?  鈹?  鈹斺攢鈹€ simd-adler32 v0.3.8
+鈹?  鈹?  鈹溾攢鈹€ rayon-core v1.13.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crossbeam-deque v0.8.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ crossbeam-epoch v0.9.18
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹斺攢鈹€ zune-inflate v0.2.54
+鈹?  鈹?      鈹斺攢鈹€ simd-adler32 v0.3.8
+鈹?  鈹溾攢鈹€ gif v0.14.1
+鈹?  鈹?  鈹溾攢鈹€ color_quant v1.1.0
+鈹?  鈹?  鈹斺攢鈹€ weezl v0.1.12
+鈹?  鈹溾攢鈹€ image-webp v0.2.4
+鈹?  鈹?  鈹溾攢鈹€ byteorder-lite v0.1.0
+鈹?  鈹?  鈹斺攢鈹€ quick-error v2.0.1
+鈹?  鈹溾攢鈹€ moxcms v0.7.11
+鈹?  鈹?  鈹溾攢鈹€ num-traits v0.2.19
+鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹斺攢鈹€ autocfg v1.5.0
+鈹?  鈹?  鈹斺攢鈹€ pxfm v0.1.27
+鈹?  鈹?      鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹溾攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹溾攢鈹€ png v0.18.0
+鈹?  鈹?  鈹溾攢鈹€ bitflags v2.10.0
+鈹?  鈹?  鈹溾攢鈹€ crc32fast v1.5.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹溾攢鈹€ fdeflate v0.3.7
+鈹?  鈹?  鈹?  鈹斺攢鈹€ simd-adler32 v0.3.8
+鈹?  鈹?  鈹溾攢鈹€ flate2 v1.1.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crc32fast v1.5.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ miniz_oxide v0.8.9 (*)
+鈹?  鈹?  鈹斺攢鈹€ miniz_oxide v0.8.9 (*)
+鈹?  鈹溾攢鈹€ qoi v0.4.1
+鈹?  鈹?  鈹斺攢鈹€ bytemuck v1.24.0
+鈹?  鈹溾攢鈹€ ravif v0.12.0
+鈹?  鈹?  鈹溾攢鈹€ avif-serialize v0.8.6
+鈹?  鈹?  鈹?  鈹斺攢鈹€ arrayvec v0.7.6
+鈹?  鈹?  鈹溾攢鈹€ imgref v1.12.0
+鈹?  鈹?  鈹溾攢鈹€ loop9 v0.1.5
+鈹?  鈹?  鈹?  鈹斺攢鈹€ imgref v1.12.0
+鈹?  鈹?  鈹溾攢鈹€ quick-error v2.0.1
+鈹?  鈹?  鈹溾攢鈹€ rav1e v0.8.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ aligned-vec v0.6.4
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ equator v0.4.2
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ equator-macro v0.4.2 (proc-macro)
+鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ arg_enum_proc_macro v0.3.4 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ arrayvec v0.7.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ av-scenechange v0.14.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aligned v0.4.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ as-slice v0.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ stable_deref_trait v1.2.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ arg_enum_proc_macro v0.3.4 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ arrayvec v0.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-rational v0.4.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-bigint v0.4.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-integer v0.1.46
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-integer v0.1.46 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pastey v0.1.1 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rayon v1.11.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ either v1.15.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rayon-core v1.13.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror-impl v2.0.17 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ v_frame v0.3.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aligned-vec v0.6.4 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ y4m v0.8.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ av1-grain v0.2.5
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ arrayvec v0.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ nom v8.0.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num-rational v0.4.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ v_frame v0.3.9 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitstream-io v4.9.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ core2 v0.4.0
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹溾攢鈹€ itertools v0.14.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ either v1.15.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹溾攢鈹€ maybe-rayon v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rayon v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ new_debug_unreachable v1.0.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ noop_proc_macro v0.3.0 (proc-macro)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ num-derive v0.4.2 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ num-traits v0.2.19 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ paste v1.0.15 (proc-macro)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ profiling v1.0.17
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ profiling-procmacros v1.0.17 (proc-macro)
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ simd_helpers v0.1.0 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ v_frame v0.3.9 (*)
+鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹斺攢鈹€ built v0.8.0
+鈹?  鈹?  鈹溾攢鈹€ rayon v1.11.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ rgb v0.8.52
+鈹?  鈹溾攢鈹€ rayon v1.11.0 (*)
+鈹?  鈹溾攢鈹€ rgb v0.8.52
+鈹?  鈹溾攢鈹€ tiff v0.10.3
+鈹?  鈹?  鈹溾攢鈹€ fax v0.2.6
+鈹?  鈹?  鈹?  鈹斺攢鈹€ fax_derive v0.2.0 (proc-macro)
+鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹溾攢鈹€ flate2 v1.1.5 (*)
+鈹?  鈹?  鈹溾攢鈹€ half v2.7.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ quick-error v2.0.1
+鈹?  鈹?  鈹溾攢鈹€ weezl v0.1.12
+鈹?  鈹?  鈹斺攢鈹€ zune-jpeg v0.4.21
+鈹?  鈹?      鈹斺攢鈹€ zune-core v0.4.12
+鈹?  鈹溾攢鈹€ zune-core v0.5.0
+鈹?  鈹斺攢鈹€ zune-jpeg v0.5.8
+鈹?      鈹斺攢鈹€ zune-core v0.5.0
+鈹溾攢鈹€ keyring v3.6.3
+鈹?  鈹斺攢鈹€ log v0.4.29
+鈹溾攢鈹€ log v0.4.29
+鈹溾攢鈹€ nostr-sdk v0.38.0
+鈹?  鈹溾攢鈹€ async-utility v0.3.1
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ nostr v0.38.0
+鈹?  鈹?  鈹溾攢鈹€ async-trait v0.1.89 (proc-macro)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?  鈹溾攢鈹€ bech32 v0.11.1
+鈹?  鈹?  鈹溾攢鈹€ bitcoin v0.32.8
+鈹?  鈹?  鈹?  鈹溾攢鈹€ base58ck v0.1.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin-internals v0.3.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ bitcoin_hashes v0.14.1
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ bitcoin-io v0.1.4
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ hex-conservative v0.2.2
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ arrayvec v0.7.6
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bech32 v0.11.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin-internals v0.3.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin-io v0.1.4
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin-units v0.1.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin-internals v0.3.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin_hashes v0.14.1 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hex-conservative v0.2.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hex_lit v0.1.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ secp256k1 v0.29.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bitcoin_hashes v0.14.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rand v0.8.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ secp256k1-sys v0.10.1
+鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cc v1.2.51 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ chacha20 v0.9.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹溾攢鈹€ cipher v0.4.4 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ cpufeatures v0.2.17
+鈹?  鈹?  鈹溾攢鈹€ negentropy v0.3.1
+鈹?  鈹?  鈹溾攢鈹€ negentropy v0.4.3
+鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149
+鈹?  鈹?  鈹?  鈹溾攢鈹€ indexmap v2.13.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ equivalent v1.0.2
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ hashbrown v0.16.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹斺攢鈹€ zmij v1.0.12
+鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹溾攢鈹€ nostr-database v0.38.0
+鈹?  鈹?  鈹溾攢鈹€ async-trait v0.1.89 (proc-macro) (*)
+鈹?  鈹?  鈹溾攢鈹€ nostr v0.38.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ nostr-relay-pool v0.38.0
+鈹?  鈹?  鈹溾攢鈹€ async-utility v0.3.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ async-wsocket v0.12.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ atomic-destructor v0.3.0
+鈹?  鈹?  鈹溾攢鈹€ negentropy v0.3.1
+鈹?  鈹?  鈹溾攢鈹€ negentropy v0.4.3
+鈹?  鈹?  鈹溾攢鈹€ nostr v0.38.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ nostr-database v0.38.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ tracing v0.1.44
+鈹?  鈹?      鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?      鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?      鈹溾攢鈹€ tracing-attributes v0.1.31 (proc-macro)
+鈹?  鈹?      鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?      鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?      鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?      鈹斺攢鈹€ tracing-core v0.1.36
+鈹?  鈹?          鈹斺攢鈹€ once_cell v1.21.3
+鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹斺攢鈹€ tracing v0.1.44 (*)
+鈹溾攢鈹€ openssl v0.10.75
+鈹?  鈹溾攢鈹€ bitflags v2.10.0
+鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹溾攢鈹€ foreign-types v0.3.2
+鈹?  鈹?  鈹斺攢鈹€ foreign-types-shared v0.1.1
+鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹溾攢鈹€ openssl-macros v0.1.1 (proc-macro)
+鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹斺攢鈹€ openssl-sys v0.9.111
+鈹?      鈹斺攢鈹€ libc v0.2.179
+鈹?      [build-dependencies]
+鈹?      鈹溾攢鈹€ cc v1.2.51 (*)
+鈹?      鈹溾攢鈹€ openssl-src v300.5.4+3.5.4
+鈹?      鈹?  鈹斺攢鈹€ cc v1.2.51 (*)
+鈹?      鈹溾攢鈹€ pkg-config v0.3.32
+鈹?      鈹斺攢鈹€ vcpkg v0.2.15
+鈹溾攢鈹€ pbkdf2 v0.12.2
+鈹?  鈹溾攢鈹€ digest v0.10.7 (*)
+鈹?  鈹斺攢鈹€ hmac v0.12.1
+鈹?      鈹斺攢鈹€ digest v0.10.7 (*)
+鈹溾攢鈹€ rand v0.8.5 (*)
+鈹溾攢鈹€ reqwest v0.12.28
+鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹溾攢鈹€ cookie v0.18.1
+鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹斺攢鈹€ time v0.3.44
+鈹?  鈹?      鈹溾攢鈹€ deranged v0.5.5
+鈹?  鈹?      鈹?  鈹溾攢鈹€ powerfmt v0.2.0
+鈹?  鈹?      鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?      鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?      鈹溾攢鈹€ num-conv v0.1.0
+鈹?  鈹?      鈹溾攢鈹€ powerfmt v0.2.0
+鈹?  鈹?      鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?      鈹溾攢鈹€ time-core v0.1.6
+鈹?  鈹?      鈹斺攢鈹€ time-macros v0.2.24 (proc-macro)
+鈹?  鈹?          鈹溾攢鈹€ num-conv v0.1.0
+鈹?  鈹?          鈹斺攢鈹€ time-core v0.1.6
+鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹斺攢鈹€ version_check v0.9.5
+鈹?  鈹溾攢鈹€ cookie_store v0.22.0
+鈹?  鈹?  鈹溾攢鈹€ cookie v0.18.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ document-features v0.2.12 (proc-macro)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ litrs v1.0.0
+鈹?  鈹?  鈹溾攢鈹€ idna v1.1.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹溾攢鈹€ publicsuffix v2.3.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ idna v1.1.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ psl-types v2.0.11
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_derive v1.0.228 (proc-macro) (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹溾攢鈹€ time v0.3.44 (*)
+鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹溾攢鈹€ encoding_rs v0.8.35
+鈹?  鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹溾攢鈹€ h2 v0.4.13
+鈹?  鈹?  鈹溾攢鈹€ atomic-waker v1.1.2
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ fnv v1.0.7
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ indexmap v2.13.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ slab v0.4.11
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio-util v0.7.18
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ tracing v0.1.44 (*)
+鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹溾攢鈹€ http-body v1.0.1
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ http v1.4.0 (*)
+鈹?  鈹溾攢鈹€ http-body-util v0.1.3
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ http-body v1.0.1 (*)
+鈹?  鈹?  鈹斺攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹溾攢鈹€ hyper v1.8.1
+鈹?  鈹?  鈹溾攢鈹€ atomic-waker v1.1.2
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ futures-channel v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹斺攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ h2 v0.4.13 (*)
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ http-body v1.0.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ httparse v1.10.1
+鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ pin-utils v0.1.0
+鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ want v0.3.1
+鈹?  鈹?      鈹斺攢鈹€ try-lock v0.2.5
+鈹?  鈹溾攢鈹€ hyper-rustls v0.27.7
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ hyper v1.8.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ hyper-util v0.1.19
+鈹?  鈹?  鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-channel v0.3.31 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ http-body v1.0.1 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hyper v1.8.1 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ipnet v2.11.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹溾攢鈹€ socket2 v0.6.1 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tower-service v0.3.3
+鈹?  鈹?  鈹?  鈹斺攢鈹€ tracing v0.1.44 (*)
+鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36 (*)
+鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio-rustls v0.26.4 (*)
+鈹?  鈹?  鈹溾攢鈹€ tower-service v0.3.3
+鈹?  鈹?  鈹斺攢鈹€ webpki-roots v1.0.5 (*)
+鈹?  鈹溾攢鈹€ hyper-util v0.1.19 (*)
+鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹溾攢鈹€ mime v0.3.17
+鈹?  鈹溾攢鈹€ mime_guess v2.0.5
+鈹?  鈹?  鈹溾攢鈹€ mime v0.3.17
+鈹?  鈹?  鈹斺攢鈹€ unicase v2.9.0
+鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹斺攢鈹€ unicase v2.9.0
+鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹溾攢鈹€ rustls v0.23.36 (*)
+鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ serde_urlencoded v0.7.1
+鈹?  鈹?  鈹溾攢鈹€ form_urlencoded v1.2.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹溾攢鈹€ ryu v1.0.22
+鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ sync_wrapper v1.0.2
+鈹?  鈹?  鈹斺攢鈹€ futures-core v0.3.31
+鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ tokio-rustls v0.26.4 (*)
+鈹?  鈹溾攢鈹€ tokio-util v0.7.18 (*)
+鈹?  鈹溾攢鈹€ tower v0.5.2
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ sync_wrapper v1.0.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tower-layer v0.3.3
+鈹?  鈹?  鈹斺攢鈹€ tower-service v0.3.3
+鈹?  鈹溾攢鈹€ tower-http v0.6.8
+鈹?  鈹?  鈹溾攢鈹€ bitflags v2.10.0
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ http-body v1.0.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ iri-string v0.7.10
+鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ tower v0.5.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tower-layer v0.3.3
+鈹?  鈹?  鈹斺攢鈹€ tower-service v0.3.3
+鈹?  鈹溾攢鈹€ tower-service v0.3.3
+鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹斺攢鈹€ webpki-roots v1.0.5 (*)
+鈹溾攢鈹€ secrecy v0.8.0
+鈹?  鈹斺攢鈹€ zeroize v1.8.2
+鈹溾攢鈹€ serde v1.0.228 (*)
+鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹溾攢鈹€ sha2 v0.10.9
+鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹溾攢鈹€ cpufeatures v0.2.17
+鈹?  鈹斺攢鈹€ digest v0.10.7 (*)
+鈹溾攢鈹€ sqlx v0.8.6
+鈹?  鈹溾攢鈹€ sqlx-core v0.8.6
+鈹?  鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ crc v3.4.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ crc-catalog v2.4.0
+鈹?  鈹?  鈹溾攢鈹€ crossbeam-queue v0.3.12
+鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹溾攢鈹€ either v1.15.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ event-listener v5.4.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ concurrent-queue v2.5.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹溾攢鈹€ parking v2.2.1
+鈹?  鈹?  鈹?  鈹斺攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-intrusive v0.5.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ lock_api v0.4.14 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ parking_lot v0.12.5 (*)
+鈹?  鈹?  鈹溾攢鈹€ futures-io v0.3.31
+鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹溾攢鈹€ hashbrown v0.15.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ allocator-api2 v0.2.21
+鈹?  鈹?  鈹?  鈹溾攢鈹€ equivalent v1.0.2
+鈹?  鈹?  鈹?  鈹斺攢鈹€ foldhash v0.1.5
+鈹?  鈹?  鈹溾攢鈹€ hashlink v0.10.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ hashbrown v0.15.5 (*)
+鈹?  鈹?  鈹溾攢鈹€ indexmap v2.13.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ sha2 v0.10.9 (*)
+鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tokio-stream v0.1.18
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ tracing v0.1.44 (*)
+鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹斺攢鈹€ webpki-roots v0.26.11 (*)
+鈹?  鈹溾攢鈹€ sqlx-macros v0.8.6 (proc-macro)
+鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹溾攢鈹€ sqlx-core v0.8.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crc v3.4.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crc-catalog v2.4.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crossbeam-queue v0.3.12
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹溾攢鈹€ either v1.15.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ serde_derive v1.0.228 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ event-listener v5.4.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ concurrent-queue v2.5.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ parking v2.2.1
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-intrusive v0.5.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ lock_api v0.4.14
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ scopeguard v1.2.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ parking_lot v0.12.5
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ lock_api v0.4.14 (*)
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ parking_lot_core v0.9.12
+鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ windows-link v0.2.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-io v0.3.31
+鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-io v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-task v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-utils v0.1.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ slab v0.4.11
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hashbrown v0.15.5
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ allocator-api2 v0.2.21
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ equivalent v1.0.2
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ foldhash v0.1.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hashlink v0.10.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ hashbrown v0.15.5 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ indexmap v2.13.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ equivalent v1.0.2
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ hashbrown v0.16.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls v0.23.36
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ring v0.17.14
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ getrandom v0.2.16
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ untrusted v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cc v1.2.51 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zeroize v1.8.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-webpki v0.103.8
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ring v0.17.14 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ untrusted v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ subtle v2.6.1
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zeroize v1.8.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sha2 v0.10.9
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cpufeatures v0.2.17
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ digest v0.10.7
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ block-buffer v0.10.4
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ generic-array v0.14.7
+鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ typenum v1.19.0
+鈹?  鈹?  鈹?  鈹?      鈹?      [build-dependencies]
+鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ version_check v0.9.5
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ crypto-common v0.1.7
+鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ generic-array v0.14.7 (*)
+鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ typenum v1.19.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror-impl v2.0.17 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ mio v1.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ windows-sys v0.61.2
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ windows-link v0.2.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ socket2 v0.6.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ windows-sys v0.60.2
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ windows-targets v0.53.5
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ windows_x86_64_msvc v0.53.1
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ windows-sys v0.61.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tokio-stream v0.1.18
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tracing v0.1.44
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pin-project-lite v0.2.16
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ tracing-attributes v0.1.31 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ tracing-core v0.1.36
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ url v2.5.8
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ form_urlencoded v1.2.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ idna v1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ idna_adapter v1.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_normalizer v2.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_collections v2.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ potential_utf v0.1.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ yoke v0.8.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ stable_deref_trait v1.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ yoke-derive v0.8.1 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ zerofrom v0.1.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ zerofrom-derive v0.1.6 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ zerovec-derive v0.11.2 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_normalizer_data v2.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_provider v2.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ icu_locale_core v2.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ litemap v0.8.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ tinystr v0.8.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ writeable v0.6.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ writeable v0.6.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerofrom v0.1.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ zerotrie v0.2.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ displaydoc v0.2.5 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ yoke v0.8.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerofrom v0.1.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ icu_properties v2.1.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ icu_collections v2.1.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ icu_locale_core v2.1.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ icu_properties_data v2.1.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ icu_provider v2.1.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ zerotrie v0.2.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ zerovec v0.11.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ utf8_iter v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_derive v1.0.228 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ webpki-roots v0.26.11
+鈹?  鈹?  鈹?      鈹斺攢鈹€ webpki-roots v1.0.5
+鈹?  鈹?  鈹?          鈹斺攢鈹€ rustls-pki-types v1.13.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ sqlx-macros-core v0.8.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ dotenvy v0.15.7
+鈹?  鈹?  鈹?  鈹溾攢鈹€ either v1.15.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ heck v0.5.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ hex v0.4.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ zmij v1.0.12
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sha2 v0.10.9 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sqlx-core v0.8.6 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sqlx-sqlite v0.8.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ atoi v2.0.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ num-traits v0.2.19
+鈹?  鈹?  鈹?  鈹?  鈹?      [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ autocfg v1.5.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ flume v0.11.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ spin v0.9.8
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ lock_api v0.4.14 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-channel v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ futures-sink v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-executor v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-task v0.3.31
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-intrusive v0.5.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ libsqlite3-sys v0.30.1
+鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cc v1.2.51 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ pkg-config v0.3.32
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ vcpkg v0.2.15
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_urlencoded v0.7.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ form_urlencoded v1.2.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ryu v1.0.22
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ sqlx-core v0.8.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ tracing v0.1.44 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹斺攢鈹€ sqlx-sqlite v0.8.6
+鈹?      鈹溾攢鈹€ atoi v2.0.0
+鈹?      鈹?  鈹斺攢鈹€ num-traits v0.2.19 (*)
+鈹?      鈹溾攢鈹€ flume v0.11.1
+鈹?      鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?      鈹?  鈹溾攢鈹€ futures-sink v0.3.31
+鈹?      鈹?  鈹斺攢鈹€ spin v0.9.8
+鈹?      鈹?      鈹斺攢鈹€ lock_api v0.4.14 (*)
+鈹?      鈹溾攢鈹€ futures-channel v0.3.31 (*)
+鈹?      鈹溾攢鈹€ futures-core v0.3.31
+鈹?      鈹溾攢鈹€ futures-executor v0.3.31
+鈹?      鈹?  鈹溾攢鈹€ futures-core v0.3.31
+鈹?      鈹?  鈹溾攢鈹€ futures-task v0.3.31
+鈹?      鈹?  鈹斺攢鈹€ futures-util v0.3.31 (*)
+鈹?      鈹溾攢鈹€ futures-intrusive v0.5.0 (*)
+鈹?      鈹溾攢鈹€ futures-util v0.3.31 (*)
+鈹?      鈹溾攢鈹€ libsqlite3-sys v0.30.1
+鈹?      鈹?  [build-dependencies]
+鈹?      鈹?  鈹溾攢鈹€ cc v1.2.51 (*)
+鈹?      鈹?  鈹溾攢鈹€ pkg-config v0.3.32
+鈹?      鈹?  鈹斺攢鈹€ vcpkg v0.2.15
+鈹?      鈹溾攢鈹€ log v0.4.29
+鈹?      鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?      鈹溾攢鈹€ serde_urlencoded v0.7.1 (*)
+鈹?      鈹溾攢鈹€ sqlx-core v0.8.6 (*)
+鈹?      鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?      鈹溾攢鈹€ tracing v0.1.44 (*)
+鈹?      鈹斺攢鈹€ url v2.5.8 (*)
+鈹溾攢鈹€ tauri v2.9.5
+鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹溾攢鈹€ cookie v0.18.1 (*)
+鈹?  鈹溾攢鈹€ dirs v6.0.0 (*)
+鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹溾攢鈹€ getrandom v0.3.4
+鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹溾攢鈹€ heck v0.5.0
+鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹溾攢鈹€ jni v0.21.1
+鈹?  鈹?  鈹溾攢鈹€ cesu8 v1.1.0
+鈹?  鈹?  鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹溾攢鈹€ combine v4.6.7
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹溾攢鈹€ jni-sys v0.3.0
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹斺攢鈹€ thiserror v1.0.69 (*)
+鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹斺攢鈹€ walkdir v2.5.0
+鈹?  鈹?      鈹溾攢鈹€ same-file v1.0.6
+鈹?  鈹?      鈹?  鈹斺攢鈹€ winapi-util v0.1.11
+鈹?  鈹?      鈹?      鈹斺攢鈹€ windows-sys v0.61.2 (*)
+鈹?  鈹?      鈹斺攢鈹€ winapi-util v0.1.11 (*)
+鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹溾攢鈹€ mime v0.3.17
+鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹溾攢鈹€ reqwest v0.12.28 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ serde_repr v0.1.20 (proc-macro)
+鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹溾攢鈹€ serialize-to-javascript v0.1.2
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹斺攢鈹€ serialize-to-javascript-impl v0.1.2 (proc-macro)
+鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹溾攢鈹€ tauri-macros v2.5.2 (proc-macro)
+鈹?  鈹?  鈹溾攢鈹€ heck v0.5.0
+鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹溾攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-codegen v2.5.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ brotli v8.0.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ alloc-stdlib v0.2.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ brotli-decompressor v5.0.0
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ alloc-stdlib v0.2.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ico v0.4.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ byteorder v1.5.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ png v0.17.16
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ bitflags v1.3.2
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ crc32fast v1.5.0
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ fdeflate v0.3.7
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ simd-adler32 v0.3.8
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ flate2 v1.1.5
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ crc32fast v1.5.0 (*)
+鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ miniz_oxide v0.8.9
+鈹?  鈹?  鈹?  鈹?      鈹?      鈹溾攢鈹€ adler2 v2.0.1
+鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ simd-adler32 v0.3.8
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ miniz_oxide v0.8.9 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ json-patch v3.0.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ jsonptr v0.6.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror v1.0.69
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ thiserror-impl v1.0.69 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ png v0.17.16 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ semver v1.0.27
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ sha2 v0.10.9 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tauri-utils v2.8.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ brotli v8.0.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cargo_metadata v0.19.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ camino v1.2.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cargo-platform v0.1.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ semver v1.0.27 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ctor v0.2.9 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ html5ever v0.29.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ markup5ever v0.14.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf v0.11.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_macros v0.11.3 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_generator v0.11.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.11.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ siphasher v1.0.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rand v0.8.5
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ rand_chacha v0.3.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ ppv-lite86 v0.2.21
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ zerocopy v0.8.33
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ rand_core v0.6.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ getrandom v0.2.16 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ rand_core v0.6.4 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ string_cache v0.8.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ new_debug_unreachable v1.0.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ parking_lot v0.12.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ precomputed-hash v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ tendril v0.4.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ futf v0.1.5
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ new_debug_unreachable v1.0.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ utf-8 v0.7.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_codegen v0.11.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_generator v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ string_cache_codegen v0.5.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ phf_generator v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ match_token v0.1.0 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ http v1.4.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bytes v1.11.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ infer v0.19.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cfb v0.7.3
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ byteorder v1.5.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ fnv v1.0.7
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ uuid v1.19.0
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ getrandom v0.3.4
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ json-patch v3.0.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ kuchikiki v0.8.8-speedreader
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cssparser v0.29.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cssparser-macros v0.6.1 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ dtoa-short v0.3.5
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ dtoa v1.0.11
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ matches v0.1.10
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf v0.10.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_macros v0.10.0 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_generator v0.10.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.10.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ siphasher v0.3.11
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rand v0.8.5 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.10.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro-hack v0.5.20+deprecated (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v1.0.109
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ unicode-ident v1.0.22
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.10.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ proc-macro-hack v0.5.20+deprecated (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v1.0.109 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ html5ever v0.29.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ indexmap v2.13.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ selectors v0.24.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ bitflags v1.3.2
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ cssparser v0.29.6 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ derive_more v0.99.20 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ convert_case v0.4.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ rustc_version v0.4.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ semver v1.0.27 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ fxhash v0.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ byteorder v1.5.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ phf v0.8.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ phf_shared v0.8.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ siphasher v0.3.11
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ precomputed-hash v0.1.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ servo_arc v0.2.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ nodrop v0.1.14
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ stable_deref_trait v1.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ smallvec v1.15.1
+鈹?  鈹?  鈹?  鈹?  鈹?      [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ phf_codegen v0.8.0
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹溾攢鈹€ phf_generator v0.8.0
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?  鈹溾攢鈹€ phf_shared v0.8.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?  鈹斺攢鈹€ rand v0.7.3
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹溾攢鈹€ getrandom v0.1.16
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹?  鈹斺攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹溾攢鈹€ rand_chacha v0.2.2
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹?  鈹溾攢鈹€ ppv-lite86 v0.2.21 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹?  鈹斺攢鈹€ rand_core v0.5.1
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹?      鈹斺攢鈹€ getrandom v0.1.16 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹溾攢鈹€ rand_core v0.5.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?      鈹斺攢鈹€ rand_pcg v0.2.1
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹?          鈹斺攢鈹€ rand_core v0.5.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ phf_shared v0.8.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf v0.11.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ regex v1.12.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aho-corasick v1.1.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ regex-automata v0.4.13
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aho-corasick v1.1.4 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ regex-syntax v0.8.8
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ regex-syntax v0.8.8
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ schemars v0.8.22
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ dyn-clone v1.0.20
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ indexmap v1.9.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ hashbrown v0.12.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ autocfg v1.5.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ schemars_derive v0.8.22 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_derive_internals v0.29.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ uuid v1.19.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ semver v1.0.27 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde-untagged v0.1.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ erased-serde v0.4.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ typeid v1.0.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ typeid v1.0.3
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_with v3.16.1
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_with_macros v3.16.1 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ darling v0.21.3
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹溾攢鈹€ darling_core v0.21.3
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ fnv v1.0.7
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ ident_case v1.0.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ strsim v0.11.1
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?  鈹斺攢鈹€ darling_macro v0.21.3 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹溾攢鈹€ darling_core v0.21.3 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml v0.9.10+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_spanned v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_datetime v0.7.5+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_parser v1.0.6+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ winnow v0.7.14
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_writer v1.0.6+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ winnow v0.7.14
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ urlpattern v0.3.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ regex v1.12.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-ucd-ident v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-char-property v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ unic-char-range v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-char-range v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ unic-ucd-version v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ unic-common v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ uuid v1.19.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ walkdir v2.5.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ uuid v1.19.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ walkdir v2.5.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ tauri-utils v2.8.1 (*)
+鈹?  鈹溾攢鈹€ tauri-runtime v2.9.2
+鈹?  鈹?  鈹溾攢鈹€ cookie v0.18.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ dpi v0.1.2
+鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ jni v0.21.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-utils v2.8.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹?  鈹溾攢鈹€ brotli v8.0.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ alloc-stdlib v0.2.2
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ brotli-decompressor v5.0.0
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ alloc-no-stdlib v2.0.4
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ alloc-stdlib v0.2.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ctor v0.2.9 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ infer v0.19.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ cfb v0.7.3
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ byteorder v1.5.0
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ fnv v1.0.7
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ uuid v1.19.0
+鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹溾攢鈹€ json-patch v3.0.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ jsonptr v0.6.3
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror v1.0.69 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹溾攢鈹€ phf v0.11.3
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_macros v0.11.3 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ phf_shared v0.11.3
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ siphasher v1.0.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ regex v1.12.2
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aho-corasick v1.1.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ regex-automata v0.4.13
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ aho-corasick v1.1.4 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ memchr v2.7.6
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ regex-syntax v0.8.8
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ regex-syntax v0.8.8
+鈹?  鈹?  鈹?  鈹溾攢鈹€ semver v1.0.27
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde-untagged v0.1.9
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ erased-serde v0.4.9
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ typeid v1.0.3
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ typeid v1.0.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_with v3.16.1
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_with_macros v3.16.1 (proc-macro) (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ toml v0.9.10+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde_spanned v1.0.4
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_datetime v0.7.5+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ serde_core v1.0.228
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_parser v1.0.6+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ winnow v0.7.14
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml_writer v1.0.6+spec-1.1.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ winnow v0.7.14
+鈹?  鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ urlpattern v0.3.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ regex v1.12.2 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-ucd-ident v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-char-property v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ unic-char-range v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ unic-char-range v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ unic-ucd-version v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ unic-common v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ uuid v1.19.0 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ walkdir v2.5.0
+鈹?  鈹?  鈹?      鈹斺攢鈹€ same-file v1.0.6
+鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹溾攢鈹€ tauri-runtime-wry v2.9.3
+鈹?  鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ jni v0.21.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹?  鈹溾攢鈹€ tao v0.34.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ bitflags v2.10.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ crossbeam-channel v0.5.15
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ crossbeam-utils v0.8.21
+鈹?  鈹?  鈹?  鈹溾攢鈹€ dpi v0.1.2 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ jni v0.21.1 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ lazy_static v1.5.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ndk v0.9.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ bitflags v2.10.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ jni-sys v0.3.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ ndk-sys v0.6.0+11769913
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ jni-sys v0.3.0
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num_enum v0.7.5
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ num_enum_derive v0.7.5 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro-crate v3.4.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ toml_edit v0.23.10+spec-1.0.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ indexmap v2.13.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ toml_datetime v0.7.5+spec-1.1.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ toml_parser v1.0.6+spec-1.1.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ winnow v0.7.14
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ rustversion v1.0.22 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ thiserror v1.0.69 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ndk-context v0.1.1
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ndk-sys v0.6.0+11769913 (*)
+鈹?  鈹?  鈹?  鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹?  鈹?  鈹溾攢鈹€ tao-macros v0.1.3 (proc-macro)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ syn v2.0.114 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-runtime v2.9.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-utils v2.8.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  鈹斺攢鈹€ wry v0.53.5
+鈹?  鈹?      鈹溾攢鈹€ base64 v0.22.1
+鈹?  鈹?      鈹溾攢鈹€ cookie v0.18.1 (*)
+鈹?  鈹?      鈹溾攢鈹€ crossbeam-channel v0.5.15 (*)
+鈹?  鈹?      鈹溾攢鈹€ dpi v0.1.2 (*)
+鈹?  鈹?      鈹溾攢鈹€ html5ever v0.29.1
+鈹?  鈹?      鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?      鈹?  鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?      鈹?  鈹溾攢鈹€ markup5ever v0.14.1
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ phf v0.11.3 (*)
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ string_cache v0.8.9
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ new_debug_unreachable v1.0.6
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ parking_lot v0.12.5 (*)
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.11.3 (*)
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ precomputed-hash v0.1.1
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹斺攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ tendril v0.4.3
+鈹?  鈹?      鈹?  鈹?      鈹溾攢鈹€ futf v0.1.5
+鈹?  鈹?      鈹?  鈹?      鈹?  鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?      鈹?  鈹?      鈹?  鈹斺攢鈹€ new_debug_unreachable v1.0.6
+鈹?  鈹?      鈹?  鈹?      鈹溾攢鈹€ mac v0.1.1
+鈹?  鈹?      鈹?  鈹?      鈹斺攢鈹€ utf-8 v0.7.6
+鈹?  鈹?      鈹?  鈹?  [build-dependencies]
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ phf_codegen v0.11.3 (*)
+鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ string_cache_codegen v0.5.4 (*)
+鈹?  鈹?      鈹?  鈹斺攢鈹€ match_token v0.1.0 (proc-macro) (*)
+鈹?  鈹?      鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹?      鈹溾攢鈹€ jni v0.21.1 (*)
+鈹?  鈹?      鈹溾攢鈹€ kuchikiki v0.8.8-speedreader
+鈹?  鈹?      鈹?  鈹溾攢鈹€ cssparser v0.29.6
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ cssparser-macros v0.6.1 (proc-macro) (*)
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ dtoa-short v0.3.5
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹斺攢鈹€ dtoa v1.0.11
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ itoa v1.0.17
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ matches v0.1.10
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ phf v0.10.1
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_macros v0.10.0 (proc-macro) (*)
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹溾攢鈹€ phf_shared v0.10.0
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ siphasher v0.3.11
+鈹?  鈹?      鈹?  鈹?  鈹?  鈹斺攢鈹€ proc-macro-hack v0.5.20+deprecated (proc-macro)
+鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ smallvec v1.15.1
+鈹?  鈹?      鈹?  鈹?  [build-dependencies]
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ proc-macro2 v1.0.105 (*)
+鈹?  鈹?      鈹?  鈹?  鈹溾攢鈹€ quote v1.0.43 (*)
+鈹?  鈹?      鈹?  鈹?  鈹斺攢鈹€ syn v1.0.109 (*)
+鈹?  鈹?      鈹?  鈹溾攢鈹€ html5ever v0.29.1 (*)
+鈹?  鈹?      鈹?  鈹溾攢鈹€ indexmap v2.13.0 (*)
+鈹?  鈹?      鈹?  鈹斺攢鈹€ selectors v0.24.0
+鈹?  鈹?      鈹?      鈹溾攢鈹€ bitflags v1.3.2
+鈹?  鈹?      鈹?      鈹溾攢鈹€ cssparser v0.29.6 (*)
+鈹?  鈹?      鈹?      鈹溾攢鈹€ derive_more v0.99.20 (proc-macro) (*)
+鈹?  鈹?      鈹?      鈹溾攢鈹€ fxhash v0.2.1
+鈹?  鈹?      鈹?      鈹?  鈹斺攢鈹€ byteorder v1.5.0
+鈹?  鈹?      鈹?      鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?      鈹?      鈹溾攢鈹€ phf v0.8.0
+鈹?  鈹?      鈹?      鈹?  鈹斺攢鈹€ phf_shared v0.8.0
+鈹?  鈹?      鈹?      鈹?      鈹斺攢鈹€ siphasher v0.3.11
+鈹?  鈹?      鈹?      鈹溾攢鈹€ precomputed-hash v0.1.1
+鈹?  鈹?      鈹?      鈹溾攢鈹€ servo_arc v0.2.0
+鈹?  鈹?      鈹?      鈹?  鈹溾攢鈹€ nodrop v0.1.14
+鈹?  鈹?      鈹?      鈹?  鈹斺攢鈹€ stable_deref_trait v1.2.1
+鈹?  鈹?      鈹?      鈹斺攢鈹€ smallvec v1.15.1
+鈹?  鈹?      鈹?      [build-dependencies]
+鈹?  鈹?      鈹?      鈹斺攢鈹€ phf_codegen v0.8.0 (*)
+鈹?  鈹?      鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?      鈹溾攢鈹€ ndk v0.9.0 (*)
+鈹?  鈹?      鈹溾攢鈹€ once_cell v1.21.3
+鈹?  鈹?      鈹溾攢鈹€ raw-window-handle v0.6.2
+鈹?  鈹?      鈹溾攢鈹€ sha2 v0.10.9 (*)
+鈹?  鈹?      鈹溾攢鈹€ tao-macros v0.1.3 (proc-macro) (*)
+鈹?  鈹?      鈹斺攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹溾攢鈹€ tauri-utils v2.8.1 (*)
+鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  [build-dependencies]
+鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹溾攢鈹€ heck v0.5.0
+鈹?  鈹溾攢鈹€ tauri-build v2.5.3
+鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹溾攢鈹€ cargo_toml v0.22.3
+鈹?  鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ dirs v6.0.0
+鈹?  鈹?  鈹?  鈹斺攢鈹€ dirs-sys v0.5.0
+鈹?  鈹?  鈹?      鈹溾攢鈹€ option-ext v0.2.0
+鈹?  鈹?  鈹?      鈹斺攢鈹€ windows-sys v0.61.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹?  鈹溾攢鈹€ heck v0.5.0
+鈹?  鈹?  鈹溾攢鈹€ json-patch v3.0.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ schemars v0.8.22 (*)
+鈹?  鈹?  鈹溾攢鈹€ semver v1.0.27 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-utils v2.8.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-winres v0.3.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹?  鈹?  鈹溾攢鈹€ embed-resource v3.0.6
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ cc v1.2.51 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ rustc_version v0.4.1 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ vswhom v0.1.0
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ vswhom-sys v0.1.3
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹?  鈹?  鈹?      [build-dependencies]
+鈹?  鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ cc v1.2.51 (*)
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ winreg v0.55.0
+鈹?  鈹?  鈹?  鈹?      鈹溾攢鈹€ cfg-if v1.0.4
+鈹?  鈹?  鈹?  鈹?      鈹斺攢鈹€ windows-sys v0.59.0
+鈹?  鈹?  鈹?  鈹?          鈹斺攢鈹€ windows-targets v0.52.6
+鈹?  鈹?  鈹?  鈹?              鈹斺攢鈹€ windows_x86_64_msvc v0.52.6
+鈹?  鈹?  鈹?  鈹斺攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?  鈹?  鈹斺攢鈹€ walkdir v2.5.0 (*)
+鈹?  鈹斺攢鈹€ tauri-utils v2.8.1 (*)
+鈹溾攢鈹€ tauri-plugin-clipboard-manager v2.3.2
+鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ tauri v2.9.5 (*)
+鈹?  鈹斺攢鈹€ thiserror v2.0.17 (*)
+鈹?  [build-dependencies]
+鈹?  鈹斺攢鈹€ tauri-plugin v2.5.2
+鈹?      鈹溾攢鈹€ anyhow v1.0.100
+鈹?      鈹溾攢鈹€ glob v0.3.3
+鈹?      鈹溾攢鈹€ schemars v0.8.22 (*)
+鈹?      鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?      鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?      鈹溾攢鈹€ tauri-utils v2.8.1 (*)
+鈹?      鈹溾攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?      鈹斺攢鈹€ walkdir v2.5.0 (*)
+鈹溾攢鈹€ tauri-plugin-http v2.5.4
+鈹?  鈹溾攢鈹€ bytes v1.11.0 (*)
+鈹?  鈹溾攢鈹€ cookie_store v0.21.1
+鈹?  鈹?  鈹溾攢鈹€ cookie v0.18.1 (*)
+鈹?  鈹?  鈹溾攢鈹€ document-features v0.2.12 (proc-macro) (*)
+鈹?  鈹?  鈹溾攢鈹€ idna v1.1.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹?  鈹溾攢鈹€ publicsuffix v2.3.0 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_derive v1.0.228 (proc-macro) (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹溾攢鈹€ time v0.3.44 (*)
+鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹溾攢鈹€ data-url v0.3.2
+鈹?  鈹溾攢鈹€ http v1.4.0 (*)
+鈹?  鈹溾攢鈹€ regex v1.12.2 (*)
+鈹?  鈹溾攢鈹€ reqwest v0.12.28 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ tauri v2.9.5 (*)
+鈹?  鈹溾攢鈹€ tauri-plugin-fs v2.4.4
+鈹?  鈹?  鈹溾攢鈹€ anyhow v1.0.100
+鈹?  鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹?  鈹溾攢鈹€ percent-encoding v2.3.2
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde_repr v0.1.20 (proc-macro) (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri v2.9.5 (*)
+鈹?  鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  鈹?  [build-dependencies]
+鈹?  鈹?  鈹溾攢鈹€ schemars v0.8.22 (*)
+鈹?  鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-plugin v2.5.2 (*)
+鈹?  鈹?  鈹溾攢鈹€ tauri-utils v2.8.1 (*)
+鈹?  鈹?  鈹斺攢鈹€ toml v0.9.10+spec-1.1.0 (*)
+鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹斺攢鈹€ urlpattern v0.3.0 (*)
+鈹?  [build-dependencies]
+鈹?  鈹溾攢鈹€ regex v1.12.2 (*)
+鈹?  鈹溾攢鈹€ schemars v0.8.22 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ tauri-plugin v2.5.2 (*)
+鈹?  鈹溾攢鈹€ url v2.5.8 (*)
+鈹?  鈹斺攢鈹€ urlpattern v0.3.0 (*)
+鈹溾攢鈹€ tauri-plugin-notification v2.3.3
+鈹?  鈹溾攢鈹€ log v0.4.29
+鈹?  鈹溾攢鈹€ rand v0.9.2
+鈹?  鈹?  鈹溾攢鈹€ rand_chacha v0.9.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ ppv-lite86 v0.2.21 (*)
+鈹?  鈹?  鈹?  鈹斺攢鈹€ rand_core v0.9.3
+鈹?  鈹?  鈹?      鈹斺攢鈹€ getrandom v0.3.4 (*)
+鈹?  鈹?  鈹斺攢鈹€ rand_core v0.9.3 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ serde_repr v0.1.20 (proc-macro) (*)
+鈹?  鈹溾攢鈹€ tauri v2.9.5 (*)
+鈹?  鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹?  鈹溾攢鈹€ time v0.3.44 (*)
+鈹?  鈹斺攢鈹€ url v2.5.8 (*)
+鈹?  [build-dependencies]
+鈹?  鈹斺攢鈹€ tauri-plugin v2.5.2 (*)
+鈹溾攢鈹€ tauri-plugin-opener v2.5.2
+鈹?  鈹溾攢鈹€ dunce v1.0.5
+鈹?  鈹溾攢鈹€ glob v0.3.3
+鈹?  鈹溾攢鈹€ open v5.3.3
+鈹?  鈹?  鈹溾攢鈹€ is-wsl v0.4.0
+鈹?  鈹?  鈹?  鈹溾攢鈹€ is-docker v0.2.0
+鈹?  鈹?  鈹?  鈹?  鈹斺攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹?  鈹斺攢鈹€ once_cell v1.21.3
+鈹?  鈹?  鈹溾攢鈹€ libc v0.2.179
+鈹?  鈹?  鈹斺攢鈹€ pathdiff v0.2.3
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹溾攢鈹€ serde_json v1.0.149 (*)
+鈹?  鈹溾攢鈹€ tauri v2.9.5 (*)
+鈹?  鈹斺攢鈹€ thiserror v2.0.17 (*)
+鈹?  [build-dependencies]
+鈹?  鈹溾攢鈹€ schemars v0.8.22 (*)
+鈹?  鈹溾攢鈹€ serde v1.0.228 (*)
+鈹?  鈹斺攢鈹€ tauri-plugin v2.5.2 (*)
+鈹溾攢鈹€ thiserror v2.0.17 (*)
+鈹溾攢鈹€ tokio v1.49.0 (*)
+鈹斺攢鈹€ tokio-tungstenite v0.24.0 (*)
+[build-dependencies]
+鈹斺攢鈹€ tauri-build v2.5.3 (*)

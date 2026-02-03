@@ -1,0 +1,603 @@
+﻿{
+    "name":  "nostr-sdk",
+    "version":  "0.38.0",
+    "id":  "registry+https://github.com/rust-lang/crates.io-index#nostr-sdk@0.38.0",
+    "license":  "MIT",
+    "license_file":  null,
+    "description":  "High level Nostr client library.",
+    "source":  "registry+https://github.com/rust-lang/crates.io-index",
+    "dependencies":  [
+                         {
+                             "name":  "async-utility",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "lnurl-pay",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.6",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "api"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-database",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-relay-pool",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-zapper",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "\u003e=1.37",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "sync"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tracing",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.1",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std",
+                                              "attributes"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-connect",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nwc",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "\u003e=1.37",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "macros"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tracing-subscriber",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "env-filter"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-lmdb",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-ndb",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "nostr-indexeddb",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.38",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         }
+                     ],
+    "targets":  [
+                    {
+                        "kind":  [
+                                     "lib"
+                                 ],
+                        "crate_types":  [
+                                            "lib"
+                                        ],
+                        "name":  "nostr_sdk",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\src\\lib.rs",
+                        "edition":  "2021",
+                        "doc":  true,
+                        "doctest":  true,
+                        "test":  true
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "aggregated-query",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\aggregated-query.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "lmdb"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "blacklist",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\blacklist.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "bot",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\bot.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "all-nips"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "client",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\client.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "comment",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\comment.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "fetch-events",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\fetch-events.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "gossip",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\gossip.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "all-nips"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "limits",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\limits.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "lmdb",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\lmdb.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "lmdb"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "nostr-connect",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\nostr-connect.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "nip59"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "nostrdb",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\nostrdb.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "ndb"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "stream-events",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\stream-events.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "subscriptions",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\subscriptions.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "switch-account",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\switch-account.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "tor",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\tor.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "nip59",
+                                                  "tor"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "whitelist",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\whitelist.rs",
+                        "edition":  "2021",
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "zapper",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\examples\\zapper.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "nip47",
+                                                  "nip57"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    }
+                ],
+    "features":  {
+                     "all-nips":  [
+                                      "nip04",
+                                      "nip05",
+                                      "nip06",
+                                      "nip07",
+                                      "nip11",
+                                      "nip44",
+                                      "nip47",
+                                      "nip49",
+                                      "nip57",
+                                      "nip59"
+                                  ],
+                     "default":  [
+
+                                 ],
+                     "indexeddb":  [
+                                       "dep:nostr-indexeddb"
+                                   ],
+                     "lmdb":  [
+                                  "dep:nostr-lmdb"
+                              ],
+                     "ndb":  [
+                                 "dep:nostr-ndb"
+                             ],
+                     "nip03":  [
+                                   "nostr/nip03"
+                               ],
+                     "nip04":  [
+                                   "nostr/nip04"
+                               ],
+                     "nip05":  [
+                                   "nostr/nip05"
+                               ],
+                     "nip06":  [
+                                   "nostr/nip06"
+                               ],
+                     "nip07":  [
+                                   "nostr/nip07"
+                               ],
+                     "nip11":  [
+                                   "nostr/nip11",
+                                   "nostr-relay-pool/nip11"
+                               ],
+                     "nip44":  [
+                                   "nostr/nip44"
+                               ],
+                     "nip47":  [
+                                   "nostr/nip47"
+                               ],
+                     "nip49":  [
+                                   "nostr/nip49"
+                               ],
+                     "nip57":  [
+                                   "nostr/nip57",
+                                   "dep:nostr-zapper",
+                                   "dep:lnurl-pay"
+                               ],
+                     "nip59":  [
+                                   "nostr/nip59"
+                               ],
+                     "tor":  [
+                                 "nostr-relay-pool/tor"
+                             ],
+                     "webln":  [
+                                   "nip57",
+                                   "nostr-zapper?/webln"
+                               ]
+                 },
+    "manifest_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nostr-sdk-0.38.0\\Cargo.toml",
+    "metadata":  {
+                     "docs":  {
+                                  "rs":  {
+                                             "all-features":  true,
+                                             "rustdoc-args":  [
+                                                                  "--cfg",
+                                                                  "docsrs"
+                                                              ]
+                                         }
+                              }
+                 },
+    "publish":  null,
+    "authors":  [
+                    "Yuki Kishimoto \u003cyukikishimoto@protonmail.com\u003e",
+                    "Rust Nostr Developers"
+                ],
+    "categories":  [
+
+                   ],
+    "keywords":  [
+                     "nostr",
+                     "sdk"
+                 ],
+    "readme":  "README.md",
+    "repository":  "https://github.com/rust-nostr/nostr.git",
+    "homepage":  "https://github.com/rust-nostr/nostr",
+    "documentation":  null,
+    "edition":  "2021",
+    "links":  null,
+    "default_run":  null,
+    "rust_version":  "1.70.0"
+}

@@ -1,0 +1,2 @@
+﻿openssl v0.10.75
+鈹斺攢鈹€ ostia v0.1.0 (D:\Project\Ostia\src-tauri)

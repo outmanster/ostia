@@ -1,0 +1,66 @@
+﻿cargo :    Compiling tokio-rustls v0.26.4
+所在位置 行:1 字符: 487
++ ... clang.cmd"; cargo build --target x86_64-linux-android > build_direct. ..
+.
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Compiling tokio-rustls v0.26. 
+   4:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   Compiling tauri v2.9.5
+   Compiling hyper-util v0.1.19
+   Compiling tungstenite v0.24.0
+   Compiling nostr-database v0.38.0
+   Compiling sqlx-core v0.8.6
+   Compiling ravif v0.12.0
+   Compiling tauri-plugin-fs v2.4.4
+   Compiling tauri-plugin-notification v2.3.3
+   Compiling tauri-plugin-opener v2.5.2
+   Compiling tauri-plugin-http v2.5.4
+   Compiling ostia v0.1.0 (D:\Project\Ostia\src-tauri)
+   Compiling tokio-tungstenite v0.24.0
+   Compiling async-wsocket v0.12.0
+   Compiling image v0.25.9
+   Compiling nostr-relay-pool v0.38.0
+   Compiling hyper-rustls v0.27.7
+   Compiling reqwest v0.12.28
+   Compiling sqlx-sqlite v0.8.6
+   Compiling nostr-sdk v0.38.0
+   Compiling sqlx v0.8.6
+error[E0432]: unresolved import `chrono`
+  --> src\nostr\encryption.rs:12:5
+   |
+12 | use chrono::Utc;
+   |     ^^^^^^ use of unresolved module or unlinked crate `chrono`
+   |
+   = help: if you wanted to use a crate named `chrono`, use `cargo add chrono`
+ to add it to your `Cargo.toml`
+
+warning: unused variable: `window`
+   --> src\commands\windows_icons.rs:119:5
+    |
+119 |     window: Window<R>,
+    |     ^^^^^^ help: if this is intentional, prefix it with an underscore: `
+_window`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by defa
+ult
+
+warning: unused variable: `taskbar_icon`
+   --> src\commands\windows_icons.rs:120:5
+    |
+120 |     taskbar_icon: Vec<u8>,
+    |     ^^^^^^^^^^^^ help: if this is intentional, prefix it with an undersc
+ore: `_taskbar_icon`
+
+warning: unused variable: `window_icon`
+   --> src\commands\windows_icons.rs:121:5
+    |
+121 |     window_icon: Vec<u8>,
+    |     ^^^^^^^^^^^ help: if this is intentional, prefix it with an undersco
+re: `_window_icon`
+
+For more information about this error, try `rustc --explain E0432`.
+warning: `ostia` (lib) generated 3 warnings
+error: could not compile `ostia` (lib) due to 1 previous error; 3 warnings emi
+tted

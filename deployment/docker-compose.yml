@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  # Nostr Relay - 用于文本消息
+  nostr-relay:
+    image: scsibug/nostr-rs-relay:latest
+    container_name: ostia-nostr-relay
+    restart: unless-stopped
+    ports:
+      - "9200:8080"
+    volumes:
+      - ./relay-data:/data
+    environment:
+      - RUST_LOG=info
+      - RELAY_PORT=8080
+      - RELAY_HOST=0.0.0.0
+      - DATABASE_PATH=/data/relay.db
+    networks:
+      - ostia-network
+
+# Blossom Media Server 已改用本地 Node.js 服务器
+# 位于: /server/blossom-server.cjs
+# 启动: cd /server && start-blossom.bat
+
+networks:
+  ostia-network:
+    driver: bridge

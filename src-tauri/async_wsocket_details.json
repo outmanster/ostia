@@ -1,0 +1,344 @@
+﻿{
+    "name":  "async-wsocket",
+    "version":  "0.12.0",
+    "id":  "registry+https://github.com/rust-lang/crates.io-index#async-wsocket@0.12.0",
+    "license":  "MIT",
+    "license_file":  null,
+    "description":  "A convenience library for using websockets both in native and WASM environments! Include embedded tor client support.",
+    "source":  "registry+https://github.com/rust-lang/crates.io-index",
+    "dependencies":  [
+                         {
+                             "name":  "futures-util",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std",
+                                              "sink"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "url",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^2.5",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^1",
+                             "kind":  "dev",
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "macros"
+                                          ],
+                             "target":  null,
+                             "registry":  null
+                         },
+                         {
+                             "name":  "arti-client",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.22",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "onion-service-client",
+                                              "rustls",
+                                              "static-sqlite",
+                                              "tokio"
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^1",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "net",
+                                              "time"
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio-rustls",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.26",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "ring",
+                                              "tls12"
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio-socks",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.5",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tokio-tungstenite",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.24",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "rustls-tls-webpki-roots"
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tor-hsrproxy",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.22",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tor-hsservice",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.22",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "tor-rtcompat",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.22",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  true,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "rustls",
+                                              "tokio"
+                                          ],
+                             "target":  "cfg(not(target_arch = \"wasm32\"))",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "async-utility",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "futures",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  false,
+                             "features":  [
+                                              "std"
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "js-sys",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "wasm-bindgen",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.2",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         },
+                         {
+                             "name":  "web-sys",
+                             "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                             "req":  "^0.3",
+                             "kind":  null,
+                             "rename":  null,
+                             "optional":  false,
+                             "uses_default_features":  true,
+                             "features":  [
+                                              "BinaryType",
+                                              "Blob",
+                                              "CloseEvent",
+                                              "ErrorEvent",
+                                              "MessageEvent",
+                                              "DomException",
+                                              "WebSocket"
+                                          ],
+                             "target":  "cfg(target_arch = \"wasm32\")",
+                             "registry":  null
+                         }
+                     ],
+    "targets":  [
+                    {
+                        "kind":  [
+                                     "lib"
+                                 ],
+                        "crate_types":  [
+                                            "lib"
+                                        ],
+                        "name":  "async_wsocket",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-wsocket-0.12.0\\src\\lib.rs",
+                        "edition":  "2021",
+                        "doc":  true,
+                        "doctest":  true,
+                        "test":  true
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "client",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-wsocket-0.12.0\\examples\\client.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "tor"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    },
+                    {
+                        "kind":  [
+                                     "example"
+                                 ],
+                        "crate_types":  [
+                                            "bin"
+                                        ],
+                        "name":  "hs-server",
+                        "src_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-wsocket-0.12.0\\examples\\hs-server.rs",
+                        "edition":  "2021",
+                        "required-features":  [
+                                                  "tor"
+                                              ],
+                        "doc":  false,
+                        "doctest":  false,
+                        "test":  false
+                    }
+                ],
+    "features":  {
+                     "default":  [
+
+                                 ],
+                     "socks":  [
+                                   "dep:tokio-socks"
+                               ],
+                     "tor":  [
+                                 "tokio/sync",
+                                 "dep:arti-client",
+                                 "dep:tor-rtcompat"
+                             ],
+                     "tor-launch-service":  [
+                                                "tor",
+                                                "arti-client?/onion-service-service",
+                                                "dep:tor-hsservice",
+                                                "dep:tor-hsrproxy"
+                                            ]
+                 },
+    "manifest_path":  "C:\\Users\\sinhe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-wsocket-0.12.0\\Cargo.toml",
+    "metadata":  null,
+    "publish":  null,
+    "authors":  [
+                    "Yuki Kishimoto \u003cyukikishimoto@protonmail.com\u003e"
+                ],
+    "categories":  [
+                       "asynchronous",
+                       "network-programming",
+                       "api-bindings",
+                       "wasm",
+                       "web-programming::websocket"
+                   ],
+    "keywords":  [
+                     "async",
+                     "tokio",
+                     "wasm",
+                     "websocket"
+                 ],
+    "readme":  "README.md",
+    "repository":  "https://github.com/yukibtc/async-wsocket.git",
+    "homepage":  "https://github.com/yukibtc/async-wsocket",
+    "documentation":  null,
+    "edition":  "2021",
+    "links":  null,
+    "default_run":  null,
+    "rust_version":  null
+}
