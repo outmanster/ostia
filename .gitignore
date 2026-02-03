@@ -13,8 +13,8 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+.vscode/
+.claude/
 .idea
 .DS_Store
 *.suo
@@ -52,6 +52,9 @@ src-tauri/gen/apple/build/
 *.ipa
 *.apk
 *.aab
+
+# AltStore
+altstore/
 
 # OS
 Thumbs.db
