@@ -125,15 +125,15 @@ export function SetPasswordDialog({ open, onOpenChange, onSuccess }: SetMasterPa
           </div>
 
           {error && (
-            <div className="flex items-center gap-2 text-[10px] text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
+            <div className="flex items-center gap-2 text-xs text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
               <ArrowRight className="h-3 w-3" />
               {error}
             </div>
           )}
 
-          <div className="bg-muted/50 p-2.5 rounded text-[10px] text-muted-foreground">
-            <p className="font-medium mb-1">💡 提示：</p>
-            <ul className="space-y-0.5 text-[10px]">
+          <div className="bg-muted/50 p-2.5 rounded text-xs text-muted-foreground">
+            <p className="font-semibold mb-1">提示：</p>
+            <ul className="space-y-0.5 text-xs">
               <li>• 建议使用4-8位数字或简单短语</li>
               <li>• 不要使用与私钥相同的密码</li>
             </ul>

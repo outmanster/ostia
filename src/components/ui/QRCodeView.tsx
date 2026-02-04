@@ -45,7 +45,7 @@ export function QRCodeView({ value, label }: QRCodeViewProps) {
             <div className="text-center space-y-2 w-full max-w-[280px]">
                 {label && <p className="text-sm font-medium text-muted-foreground">{label}</p>}
                 <div className="flex items-center gap-2 bg-muted/50 p-2 rounded-md border border-border/50">
-                    <code className="text-[10px] font-mono flex-1 truncate">{value}</code>
+                    <code className="text-xs font-mono flex-1 truncate">{value}</code>
                     <Button
                         variant="ghost"
                         size="icon"
@@ -57,7 +57,7 @@ export function QRCodeView({ value, label }: QRCodeViewProps) {
                 </div>
             </div>
 
-            <p className="text-[11px] text-muted-foreground text-center max-w-[240px]">
+            <p className="text-xs text-muted-foreground text-center max-w-[240px]">
                 让对方打开 Ostia “添加联系人”并扫描此二维码即可快速添加你。
             </p>
         </div>

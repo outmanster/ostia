@@ -46,14 +46,14 @@ export function ProfileEditor() {
                             <User className="h-3 w-3 text-primary" />
                             个人信息
                         </span>
-                        <p className="text-[10px] text-muted-foreground leading-relaxed">
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                             设置您的基本资料，这些信息将通过中继器共享给您的联系人。
                         </p>
                     </div>
 
                     <div className="space-y-3">
                         <div className="space-y-1.5">
-                            <Label htmlFor="displayName" className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">昵称</Label>
+                            <Label htmlFor="displayName" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">昵称</Label>
                             <div className="relative group">
                                 <User className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground transition-colors group-focus-within:text-primary" />
                                 <Input
@@ -67,7 +67,7 @@ export function ProfileEditor() {
                         </div>
 
                         <div className="space-y-1.5">
-                            <Label htmlFor="picture" className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">头像地址 (URL)</Label>
+                            <Label htmlFor="picture" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">头像地址 (URL)</Label>
                             <div className="relative group">
                                 <ImageIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground transition-colors group-focus-within:text-primary" />
                                 <Input

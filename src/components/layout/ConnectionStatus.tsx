@@ -68,7 +68,7 @@ export function ConnectionStatus({ minimal = false }: { minimal?: boolean }) {
               status === "connected" && "shadow-[0_0_6px_rgba(34,197,94,0.4)]"
             )} />
           </TooltipTrigger>
-          <TooltipContent side="right" className="text-[10px] font-mono">
+          <TooltipContent side="right" className="text-xs font-mono">
             <p>{config.label}</p>
           </TooltipContent>
         </Tooltip>

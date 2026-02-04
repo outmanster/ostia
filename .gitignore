@@ -56,5 +56,8 @@ src-tauri/gen/apple/build/
 # AltStore
 altstore/
 
+# www
+www/
+
 # OS
 Thumbs.db

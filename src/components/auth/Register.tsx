@@ -56,18 +56,18 @@ export function Register({ onSwitchToLogin }: RegisterProps) {
 
         <div className="space-y-4">
           <div className="space-y-1">
-            <label className="text-[10px] font-mono font-bold uppercase tracking-wider text-muted-foreground">公钥 (NPUB)</label>
-            <div className="bg-muted p-2 border border-border font-mono text-[10px] break-all text-foreground/80">
+            <label className="text-xs font-mono font-bold uppercase tracking-wider text-muted-foreground">公钥 (NPUB)</label>
+            <div className="bg-muted p-2 border border-border font-mono text-xs break-all text-foreground/80">
               {pendingAccount.npub}
             </div>
           </div>
 
           <div className="space-y-1">
-            <label className="text-[10px] font-mono font-bold uppercase tracking-wider text-destructive">
-              私钥 (NSEC) :: 严禁分享
+            <label className="text-xs font-mono font-bold uppercase tracking-wider text-destructive">
+              私钥 (NSEC) - 请立即保存！
             </label>
-            <div className="relative group">
-              <div className="bg-destructive/10 border border-destructive/30 p-3 font-mono text-[10px] break-all pr-10 text-destructive font-bold">
+            <div className="relative">
+              <div className="bg-destructive/10 border border-destructive/30 p-3 font-mono text-xs break-all pr-10 text-destructive font-bold">
                 {pendingAccount.nsec}
               </div>
               <Button
@@ -85,7 +85,7 @@ export function Register({ onSwitchToLogin }: RegisterProps) {
             </div>
           </div>
 
-          <div className="flex gap-3 bg-amber-500/5 p-3 text-amber-600 dark:text-amber-500 text-[10px] font-mono border-l-2 border-amber-500">
+          <div className="flex gap-3 bg-amber-500/5 p-3 text-amber-600 dark:text-amber-500 text-xs font-mono border-l-2 border-amber-500">
             <AlertCircle className="h-4 w-4 flex-shrink-0" />
             <p>
               警告：私钥丢失 = 永久失去账户访问权。必须离线备份。

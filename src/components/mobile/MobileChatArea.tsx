@@ -326,7 +326,7 @@ export function MobileChatArea({ onBack }: MobileChatAreaProps) {
             </p>
           )}
           <div
-            className={`text-[10px] mt-1 opacity-70 ${isOwn ? "text-primary-foreground/80" : "text-muted-foreground"
+            className={`text-xs mt-1 opacity-70 ${isOwn ? "text-primary-foreground/80" : "text-muted-foreground"
               }`}
           >
             {formatMessageTime(msg.timestamp)}
@@ -385,10 +385,10 @@ export function MobileChatArea({ onBack }: MobileChatAreaProps) {
             {presence?.online && (
               <>
                 <span className="inline-block h-2 w-2 rounded-full bg-green-500" />
-                {!isTyping && <span className="text-[10px] text-emerald-400">在线</span>}
+                {!isTyping && <span className="text-xs text-emerald-400">在线</span>}
               </>
             )}
-            {isTyping && <span className="text-[10px] text-primary">正在输入…</span>}
+            {isTyping && <span className="text-xs text-primary">正在输入…</span>}
           </p>
           <p className="text-xs text-muted-foreground truncate">
             {selectedContact.npub.slice(0, 8)}...{selectedContact.npub.slice(-4)}
@@ -428,7 +428,7 @@ export function MobileChatArea({ onBack }: MobileChatAreaProps) {
                 <div key={msg.id}>
                   {showDateSeparator && (
                     <div className="flex items-center justify-center my-3">
-                      <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
+                      <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
                         {getDateLabel(msg.timestamp)}
                       </span>
                     </div>

@@ -105,14 +105,14 @@ const MessageRow = ({
       {/* Avatar */}
       <Avatar className="h-7 w-7 shrink-0 shadow-sm border border-background/20 cursor-pointer hover:opacity-90 transition-opacity pb-0">
         <AvatarImage src={avatarUrl} className="object-cover" />
-        <AvatarFallback className="text-[9px] font-bold bg-muted text-muted-foreground">
+        <AvatarFallback className="text-[10px] font-bold bg-muted text-muted-foreground">
           {initials}
         </AvatarFallback>
       </Avatar>
 
       <div className={`flex flex-col max-w-[75%] ${isOwn ? "items-end" : "items-start"}`}>
         {!isOwn && (
-          <span className="text-[10px] text-muted-foreground/80 mb-0.5">
+          <span className="text-xs text-muted-foreground/80 mb-0.5">
             {displayName}
           </span>
         )}
@@ -158,7 +158,7 @@ const MessageRow = ({
 
         {/* Timestamp & Status */}
         <div
-          className={`text-[10px] mt-0.5 flex items-center gap-1.5 opacity-60 font-medium transition-opacity group-hover:opacity-90 py-1 ${isOwn ? "justify-end" : "justify-start"
+          className={`text-xs mt-0.5 flex items-center gap-1.5 opacity-60 font-medium transition-opacity group-hover:opacity-90 py-1 ${isOwn ? "justify-end" : "justify-start"
             }`}
           onPointerDown={handlePointerDown}
           onPointerUp={handlePointerUp}
@@ -166,7 +166,7 @@ const MessageRow = ({
           onPointerMove={handlePointerMove}
         >
           <div
-            className={`text-[10px] mt-1 flex items-center gap-1.5 opacity-60 font-medium transition-opacity group-hover:opacity-90 ${isOwn ? "justify-end" : "justify-start"
+            className={`text-xs mt-1 flex items-center gap-1.5 opacity-60 font-medium transition-opacity group-hover:opacity-90 ${isOwn ? "justify-end" : "justify-start"
               }`}
           >
             {/* Delete button (Left of time for Own messages) */}
@@ -187,11 +187,11 @@ const MessageRow = ({
 
             {isOwn && (
               <span className={`flex items-center ${message.status === "failed" ? "text-destructive" : "text-primary/70"}`}>
-                {message.status === "pending" && <span className="text-[10px]">···</span>}
+                {message.status === "pending" && <span className="text-xs">···</span>}
                 {message.status === "sent" && <Check className="h-3 w-3" />}
                 {message.status === "delivered" && <CheckCheck className="h-3 w-3" />}
                 {message.status === "read" && <CheckCheck className="h-3 w-3 text-blue-500 dark:text-blue-400" />}
-                {message.status === "failed" && <span className="text-[10px] font-bold">!</span>}
+                {message.status === "failed" && <span className="text-xs font-bold">!</span>}
               </span>
             )}
 
@@ -429,7 +429,7 @@ export function VirtualMessageList({
           <div className="flex justify-center mb-6">
             <div className="flex items-center gap-2 bg-muted/50 px-3 py-1.5 rounded-full border border-border/50 animate-in fade-in zoom-in duration-300">
               <Loader2 className="h-3.5 w-3.5 animate-spin text-primary" />
-              <span className="text-[11px] text-muted-foreground font-medium">正在拉取历史记录...</span>
+              <span className="text-xs text-muted-foreground font-medium">正在拉取历史记录...</span>
             </div>
           </div>
         )}
@@ -441,14 +441,14 @@ export function VirtualMessageList({
           <div key={message.id}>
             {showDateSeparator && (
               <div className="flex items-center justify-center my-3">
-                <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
+                <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
                   {getDateLabel(message.timestamp)}
                 </span>
               </div>
             )}
             {firstUnreadMessageId === message.id && (
               <div className="flex items-center justify-center my-3">
-                <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
+                <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-muted text-muted-foreground border border-border/60">
                   未读消息
                 </span>
               </div>

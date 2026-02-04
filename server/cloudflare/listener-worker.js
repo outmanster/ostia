@@ -109,8 +109,8 @@ async function readSeenIds(env, pubkeyHex) {
 
 async function writeSeenIds(env, pubkeyHex, ids) {
   if (!env.NOTIFY_KV) return;
-  const unique = Array.from(new Set((ids || []).map((s) => String(s || "")).filter(Boolean))).slice(-400);
-  await env.NOTIFY_KV.put(`${SEEN_IDS_PREFIX}${pubkeyHex}`, JSON.stringify(unique), { expirationTtl: 3 * 24 * 60 * 60 });
+  const unique = Array.from(new Set((ids || []).map((s) => String(s || "")).filter(Boolean))).slice(-1000);
+  await env.NOTIFY_KV.put(`${SEEN_IDS_PREFIX}${pubkeyHex}`, JSON.stringify(unique), { expirationTtl: 30 * 24 * 60 * 60 });
 }
 
 async function readUserConfig(env, pubkeyHex) {
@@ -430,6 +430,9 @@ async function runOnceForUser(env, pubkeyHex, cfg, options) {
     const id = String(e?.id || "");
     if (!id) return false;
     if (!Number.isFinite(createdAt) || createdAt <= 0) return false;
+    // Ignore events from the future (tolerance 5 minutes) to prevent "pinned" spam
+    if (createdAt > now + 300) return false;
+
     if (createdAt > lastSeen) {
       if (seenSet.has(id)) return false;
       return true;

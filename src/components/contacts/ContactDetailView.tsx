@@ -11,9 +11,10 @@ import { truncateNpub } from "@/utils/format";
 
 type ContactDetailViewProps = {
     onStartChat?: () => void;
+    className?: string;
 };
 
-export function ContactDetailView({ onStartChat }: ContactDetailViewProps) {
+export function ContactDetailView({ onStartChat, className }: ContactDetailViewProps) {
     const { selectedContact, blockContact, removeContact, selectContact, updateRemark } = useContactStore();
     const { setActiveTab, isMobile } = useUIStore();
     const [isCopied, setIsCopied] = useState(false);
@@ -85,7 +86,7 @@ export function ContactDetailView({ onStartChat }: ContactDetailViewProps) {
     };
 
     return (
-        <div className="flex-1 flex flex-col h-full bg-background overflow-y-auto">
+        <div className={cn("flex-1 flex flex-col h-full bg-background overflow-y-auto", className)}>
             <div className="max-w-2xl mx-auto w-full px-6 py-8 space-y-8">
                 {/* Profile Header */}
                 <div className="flex flex-col items-start text-left space-y-4">
@@ -163,7 +164,7 @@ export function ContactDetailView({ onStartChat }: ContactDetailViewProps) {
                             </div>
 
                             {selectedContact.blocked && (
-                                <div className="flex items-center gap-1.5 px-2 py-0.5 bg-destructive/10 text-destructive rounded-full text-[10px] font-bold uppercase tracking-wider">
+                                <div className="flex items-center gap-1.5 px-2 py-0.5 bg-destructive/10 text-destructive rounded-full text-xs font-bold uppercase tracking-wider">
                                     <Shield className="h-3 w-3" />
                                     已屏蔽
                                 </div>

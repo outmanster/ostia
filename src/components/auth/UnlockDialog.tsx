@@ -134,7 +134,7 @@ export function UnlockDialog({ open, onOpenChange, onSwitchToLogin }: UnlockDial
           </div>
 
           {error && (
-            <div className="flex items-center gap-2 text-[10px] text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
+            <div className="flex items-center gap-2 text-xs text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
               <ArrowRight className="h-3 w-3" />
               {error}
             </div>
@@ -152,7 +152,7 @@ export function UnlockDialog({ open, onOpenChange, onSwitchToLogin }: UnlockDial
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t border-dashed border-border" />
             </div>
-            <div className="relative flex justify-center text-[10px] uppercase font-mono">
+            <div className="relative flex justify-center text-xs uppercase font-mono">
               <span className="bg-card px-2 text-muted-foreground">或</span>
             </div>
           </div>

@@ -52,15 +52,15 @@ export function DeletePasswordDialog({ open, onOpenChange, onSuccess }: DeletePa
 
         <div className="space-y-3">
           {error && (
-            <div className="flex items-center gap-2 text-[10px] text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2 rounded-lg">
+            <div className="flex items-center gap-2 text-xs text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2 rounded-lg">
               <ArrowRight className="h-3 w-3" />
               {error}
             </div>
           )}
 
-          <div className="bg-amber-50 border border-amber-200 p-2.5 rounded-lg text-[10px] text-amber-800">
-            <p className="font-medium mb-1">⚠️ 警告：</p>
-            <ul className="space-y-0.5 text-[10px]">
+          <div className="bg-amber-50 border border-amber-200 p-2.5 rounded-lg text-xs text-amber-800">
+            <p className="font-semibold mb-1">注意：</p>
+            <ul className="space-y-0.5 text-xs">
               <li>• 删除密码后，下次启动应用时需要重新输入完整私钥</li>
               <li>• 此操作不可撤销</li>
             </ul>

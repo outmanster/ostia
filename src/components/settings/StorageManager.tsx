@@ -138,16 +138,16 @@ export function StorageManager() {
               <Database className="h-3 w-3 text-primary" />
               存储状态
             </h3>
-            <p className="text-[10px] text-muted-foreground leading-relaxed">
-              本地数据库的当前记录统计。
-            </p>
+            <p className="text-xs text-muted-foreground leading-relaxed">
+            查看当前本地数据库的统计信息。
+          </p>
           </div>
           <Button
             variant="outline"
             size="sm"
             onClick={() => getStats(false)}
             disabled={isGettingStats}
-            className="h-6 text-[10px] uppercase tracking-widest rounded-lg border-border/50 px-2"
+            className="h-6 text-xs uppercase tracking-widest rounded-lg border-border/50 px-2"
           >
             <Activity className={`h-3 w-3 mr-1.5 ${isGettingStats ? 'animate-spin' : ''}`} />
             刷新
@@ -222,7 +222,7 @@ export function StorageManager() {
               <Button
                 size="sm"
                 variant={op.variant}
-                className="h-6 text-[10px] px-3 rounded-lg"
+                className="h-6 text-xs px-3 rounded-lg"
                 onClick={() => handleCleanup(op.mode as any)}
                 disabled={isCleaning}
               >
@@ -234,8 +234,8 @@ export function StorageManager() {
 
         <div className="flex items-start gap-2 p-2 bg-amber-500/10 border border-amber-500/20 rounded-lg">
           <Info className="h-3 w-3 text-amber-600/70 mt-0.5 shrink-0" />
-          <p className="text-[10px] text-amber-800/80 dark:text-amber-200/80 leading-relaxed">
-            注意：清理操作不可撤销。建议定期执行"深度清理"以保持应用流畅运行。
+          <p className="text-xs text-amber-800/80 dark:text-amber-200/80 leading-relaxed">
+            <span className="font-bold">注意：</span> 清理操作不可撤销。建议定期执行"深度清理"以保持应用流畅运行。
           </p>
         </div>
       </section>

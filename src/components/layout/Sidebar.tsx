@@ -104,8 +104,8 @@ export function Sidebar() {
             <MessageSquare className="h-3.5 w-3.5" />
             <span>消息</span>
             {totalUnread > 0 && (
-              <span className="absolute top-1 right-2 flex min-w-[14px] h-[14px] items-center justify-center rounded-full bg-red-500 text-[9px] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
-                {totalUnread > 99 ? "99+" : totalUnread}
+              <span className="absolute top-1 right-2 flex min-w-[16px] h-[16px] items-center justify-center rounded-full bg-red-500 text-[0.625rem] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
+                {badge > 99 ? "99+" : badge}
               </span>
             )}
           </button>
@@ -148,7 +148,7 @@ export function Sidebar() {
           <div className="relative">
             <Avatar className="h-8 w-8 border border-primary/10 transition-transform active:scale-95">
               <AvatarImage src={profile?.picture || undefined} />
-              <AvatarFallback className="bg-primary/5 text-primary text-[10px] font-bold">
+              <AvatarFallback className="bg-primary/5 text-primary text-xs font-bold">
                 {profile?.displayName?.slice(0, 2).toUpperCase() || profile?.name?.slice(0, 2).toUpperCase() || "ME"}
               </AvatarFallback>
             </Avatar>

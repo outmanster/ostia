@@ -79,7 +79,7 @@ export function BookmarkItem({ bookmark }: BookmarkItemProps) {
                         <ExternalLink className="w-4 h-4 text-white/80" />
                     </div>
                 )}
-                <span className="text-[10px] font-medium text-white text-center line-clamp-2 leading-tight">
+                <span className="text-[0.625rem] font-medium text-white text-center line-clamp-2 leading-tight">
                     {bookmark.title}
                 </span>
             </div>

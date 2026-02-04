@@ -143,7 +143,7 @@ export function MessageEdit({ message, onEdit, onCancel, onDelete }: MessageEdit
           />
 
           {/* Info text */}
-          <div className="text-[10px] text-muted-foreground flex justify-end">
+          <div className="text-xs text-muted-foreground flex justify-end">
             Ctrl+Enter 保存，Esc 取消
           </div>
 
@@ -205,7 +205,7 @@ export function EditIndicator({ editedAt }: EditIndicatorProps) {
   };
 
   return (
-    <span className="text-[10px] text-muted-foreground ml-2">
+    <span className="text-xs text-muted-foreground ml-2">
       (已编辑 {formatTime(editedAt)})
     </span>
   );

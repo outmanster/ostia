@@ -572,7 +572,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                   <div className="space-y-3">
                     <div className="space-y-1.5">
                       <div className="flex items-center justify-between">
-                        <label className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">公钥 (npub)</label>
+                        <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground">公钥 (npub)</label>
                       </div>
                       <div className="flex items-center gap-2">
                         <p className="flex-1 text-xs text-muted-foreground font-mono break-all bg-background/50 border border-border/30 p-2 rounded-sm min-h-[36px] flex items-center">
@@ -607,7 +607,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
 
                     <div className="space-y-1.5">
                       <div className="flex items-center justify-between">
-                        <label className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">私钥 (nsec)</label>
+                        <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground">私钥 (nsec)</label>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="flex-1 min-w-0 max-w-full overflow-hidden text-xs text-muted-foreground font-mono bg-background/50 border border-border/30 p-2 rounded-sm flex items-center min-h-[36px]">
@@ -640,7 +640,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                           </Button>
                         </div>
                       </div>
-                      <p className="text-[10px] text-amber-600 bg-amber-500/10 p-1.5 rounded border border-amber-500/20 flex items-start gap-1.5">
+                      <p className="text-xs text-amber-600 bg-amber-500/10 p-1.5 rounded border border-amber-500/20 flex items-start gap-1.5">
                         <span className="shrink-0">⚠️</span>
                         <span>请妥善保管您的私钥。丢失私钥意味着永久丢失账户访问权限。</span>
                       </p>
@@ -669,7 +669,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                         <div className="flex items-center justify-between p-2.5 bg-background/50 border border-border/30 rounded-sm">
                           <div className="flex flex-col gap-0.5">
                             <span className="text-xs font-medium">状态</span>
-                            <span className="text-[10px] text-green-600 dark:text-green-400 font-mono flex items-center gap-1">
+                            <span className="text-xs text-green-600 dark:text-green-400 font-mono flex items-center gap-1">
                               <Check className="h-3 w-3" /> 已开启密码保护
                             </span>
                           </div>
@@ -698,7 +698,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                         <Lock className="h-6 w-6 text-muted-foreground/30" />
                         <div className="space-y-0.5">
                           <p className="text-xs font-medium">未设置密码保护</p>
-                          <p className="text-[10px] text-muted-foreground">设置密码后，下次启动应用时需输入密码解锁。</p>
+                          <p className="text-xs text-muted-foreground">设置密码后，下次启动应用时需输入密码解锁。</p>
                         </div>
                         <Button
                           variant="default"
@@ -899,7 +899,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                           </Button>
                         )}
                       </div>
-                      {isIOS && <p className="text-[10px] text-muted-foreground">Bark 仅支持 iOS</p>}
+                      {isIOS && <p className="text-xs text-muted-foreground">Bark 仅支持 iOS</p>}
                     </div>
 
                     <div className="space-y-1.5">
@@ -1031,7 +1031,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                           </Button>
                         </div>
                       </div>
-                      {push.pushType !== "webhook" && <p className="text-[10px] text-muted-foreground">该项必填</p>}
+                      {push.pushType !== "webhook" && <p className="text-xs text-muted-foreground">该项必填</p>}
                     </div>
 
                     <div className="space-y-1.5">
@@ -1082,7 +1082,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                 <div className="space-y-3">
                   <div className="space-y-1.5">
                     <label className="text-xs font-medium">主题模式</label>
-                    <p className="text-[10px] text-muted-foreground">选择您喜欢的应用外观界面</p>
+                    <p className="text-xs text-muted-foreground">选择您喜欢的应用外观界面</p>
                   </div>
 
                   <div className="grid grid-cols-3 gap-3">
@@ -1094,7 +1094,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                       <div className="p-2 bg-amber-50 rounded-full text-amber-500">
                         <Sun className="h-5 w-5" />
                       </div>
-                      <span className="text-[10px] font-medium">浅色</span>
+                      <span className="text-xs font-medium">浅色</span>
                     </button>
 
                     <button
@@ -1105,7 +1105,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                       <div className="p-2 bg-slate-900 rounded-full text-slate-100">
                         <Moon className="h-5 w-5" />
                       </div>
-                      <span className="text-[10px] font-medium">深色</span>
+                      <span className="text-xs font-medium">深色</span>
                     </button>
 
                     <button
@@ -1116,7 +1116,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                       <div className="p-2 bg-muted rounded-full text-muted-foreground">
                         <Monitor className="h-5 w-5" />
                       </div>
-                      <span className="text-[10px] font-medium">系统</span>
+                      <span className="text-xs font-medium">系统</span>
                     </button>
                   </div>
                 </div>
@@ -1148,7 +1148,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                         {accentColor === c.id && (
                           <Check className="w-3.5 h-3.5 text-white absolute inset-0 m-auto" />
                         )}
-                        <span className="absolute -top-7 left-1/2 -translate-x-1/2 text-[10px] bg-popover text-popover-foreground px-2 py-0.5 rounded border border-border shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-all pointer-events-none z-10">
+                        <span className="absolute -top-7 left-1/2 -translate-x-1/2 text-xs bg-popover text-popover-foreground px-2 py-0.5 rounded border border-border shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-all pointer-events-none z-10">
                           {c.name}
                         </span>
                       </button>
@@ -1168,7 +1168,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                   </div>
 
                   <div className="flex items-center gap-3 px-1">
-                    <span className="text-[10px] text-muted-foreground shrink-0 font-medium">A</span>
+                    <span className="text-xs text-muted-foreground shrink-0 font-medium">A</span>
                     <div className="flex-1 space-y-3 pt-2">
                       <Slider
                         value={[([14, 16, 18, 20, 24].indexOf(fontSize) === -1 ? 1 : [14, 16, 18, 20, 24].indexOf(fontSize))]}
@@ -1215,7 +1215,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                       <Shield className="h-3 w-3 text-primary" />
                       安全特性
                     </span>
-                    <p className="text-[10px] text-muted-foreground leading-relaxed">
+                    <p className="text-xs text-muted-foreground leading-relaxed">
                       通过先进的加密技术保护您的数字通信。
                     </p>
                   </div>
@@ -1232,7 +1232,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                           <Check className="h-3 w-3 text-primary" />
                           {item.title}
                         </span>
-                        <p className="text-[10px] text-muted-foreground leading-normal ml-5">
+                        <p className="text-xs text-muted-foreground leading-normal ml-5">
                           {item.desc}
                         </p>
                       </div>

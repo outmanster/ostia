@@ -88,12 +88,12 @@ function ChatHeader({ contact, onBack }: { contact: Contact; onBack?: () => void
             {presence?.online && (
               <>
                 <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-500" />
-                {!isTyping && <span className="text-[9px] text-emerald-400">在线</span>}
+                {!isTyping && <span className="text-[0.625rem] text-emerald-400">在线</span>}
               </>
             )}
-            {isTyping && <span className="text-[9px] text-primary">正在输入…</span>}
+            {isTyping && <span className="text-[0.625rem] text-primary">正在输入…</span>}
           </p>
-          <p className="text-[10px] text-muted-foreground truncate max-w-[150px] sm:max-w-xs font-mono">
+          <p className="text-xs text-muted-foreground truncate max-w-[150px] sm:max-w-xs font-mono">
             {contact.npub.slice(0, 8)}...{contact.npub.slice(-8)}
           </p>
         </div>
@@ -130,12 +130,15 @@ function ChatHeader({ contact, onBack }: { contact: Contact; onBack?: () => void
       {/* Mobile Profile Sheet */}
       {isMobile && (
         <Dialog open={showProfile} onOpenChange={setShowProfile}>
-          <DialogContent className="p-0 sm:max-w-[425px] h-[80vh] flex flex-col overflow-hidden">
+          <DialogContent className="p-0 sm:max-w-[425px] max-h-[80vh] flex flex-col overflow-hidden">
             <DialogHeader className="p-4 border-b shrink-0">
               <DialogTitle>联系人详情</DialogTitle>
             </DialogHeader>
             <div className="flex-1 overflow-y-auto">
-              <ContactDetailView onStartChat={() => setShowProfile(false)} />
+              <ContactDetailView
+                onStartChat={() => setShowProfile(false)}
+                className="flex-none h-auto"
+              />
             </div>
           </DialogContent>
         </Dialog>

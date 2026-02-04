@@ -108,7 +108,7 @@ export function MobileSettingsScreen() {
                             <h2 className="text-base font-bold truncate">
                                 {profile?.displayName || profile?.name || "匿名用户"}
                             </h2>
-                            <p className="text-[10px] text-muted-foreground font-mono">
+                            <p className="text-xs text-muted-foreground font-mono">
                                 {truncateNpub(npub || "", 8)}
                             </p>
                         </div>

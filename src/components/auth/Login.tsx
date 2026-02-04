@@ -92,7 +92,7 @@ export function Login({ onSwitchToRegister }: LoginProps) {
           <div className="absolute inset-0 flex items-center">
             <span className="w-full border-t border-border" />
           </div>
-          <div className="relative flex justify-center text-[10px]">
+          <div className="relative flex justify-center text-xs">
             <span className="bg-card px-2 text-muted-foreground">或</span>
           </div>
         </div>

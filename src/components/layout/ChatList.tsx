@@ -151,7 +151,7 @@ export function ChatList({
                                                 <span className="absolute bottom-0 right-0 h-2.5 w-2.5 rounded-full bg-green-500 border-2 border-background ring-1 ring-background" />
                                             )}
                                             {session.unread_count > 0 && (
-                                                <span className="absolute -top-1 -right-1 flex min-w-[14px] h-[14px] items-center justify-center rounded-full bg-red-500 text-[9px] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
+                                                <span className="absolute -top-1 -right-1 flex min-w-[16px] h-[16px] items-center justify-center rounded-full bg-red-500 text-[10px] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
                                                     {session.unread_count > 99 ? "99+" : session.unread_count}
                                                 </span>
                                             )}
@@ -164,7 +164,7 @@ export function ChatList({
                                                     <span>{getDisplayName(session.contact)}</span>
                                                 </p>
                                                 <span
-                                                    className="text-[10px] shrink-0 font-medium text-muted-foreground/70"
+                                                    className="text-xs shrink-0 font-medium text-muted-foreground/70"
                                                 >
                                                     {formatTime(session.last_timestamp)}
                                                 </span>

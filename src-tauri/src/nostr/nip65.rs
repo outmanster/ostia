@@ -239,6 +239,12 @@ impl Nip65Manager {
             }
 
             // Filter out private addresses from the PUBLISHED list
+            // However, if the user explicitly wants to publish Kind 10002, we should include all relays they added,
+            // because they might be using a private relay accessible via VPN/Tailscale (e.g. 100.x.y.z)
+            // or a public domain that resolves to private IP.
+            // 
+            // BUT, for strictly local IPs (localhost, 127.0.0.1, 192.168.x.x), publishing them is usually useless and leaks local info.
+            // So we keep the filter for strictly local IPs.
             if !is_public_relay_url(&relay.url) {
                 log::warn!("NIP-65: Not publishing private address: {}", relay.url);
                 continue;

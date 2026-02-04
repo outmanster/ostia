@@ -70,11 +70,11 @@ export function MobileLayout({ children }: MobileLayoutProps) {
       <nav className="border-t bg-card p-2 flex justify-around items-center lg:hidden">
         <Button variant="ghost" size="sm" className="flex flex-col gap-1 h-auto py-2">
           <MessageSquare className="h-7 w-7" />
-          <span className="text-[10px]">消息</span>
+          <span className="text-[0.625rem]">消息</span>
         </Button>
         <Button variant="ghost" size="sm" className="flex flex-col gap-1 h-auto py-2">
           <Users className="h-7 w-7" />
-          <span className="text-[10px]">联系人</span>
+          <span className="text-[0.625rem]">联系人</span>
         </Button>
         <Button
           variant="ghost"
@@ -83,7 +83,7 @@ export function MobileLayout({ children }: MobileLayoutProps) {
           onClick={() => setShowSettings(true)}
         >
           <Settings className="h-7 w-7" />
-          <span className="text-[10px]">设置</span>
+          <span className="text-[0.625rem]">设置</span>
         </Button>
       </nav>
 

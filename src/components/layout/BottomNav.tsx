@@ -23,12 +23,12 @@ export function BottomNav() {
                 <div className="relative">
                     <MessageSquare className={cn("h-7 w-7", activeTab === "chats" && "fill-current")} />
                     {totalUnread > 0 && (
-                        <span className="absolute -top-1 -right-1.5 flex min-w-[14px] h-[14px] items-center justify-center rounded-full bg-red-500 text-[9px] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
-                            {totalUnread > 99 ? "99+" : totalUnread}
+                        <span className="absolute -top-1 -right-1.5 flex min-w-[16px] h-[16px] items-center justify-center rounded-full bg-red-500 text-[0.625rem] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
+                          {unreadTotal > 99 ? "99+" : unreadTotal}
                         </span>
                     )}
                 </div>
-                <span className="text-[10px] font-medium">消息</span>
+                <span className="text-[0.625rem] font-medium">消息</span>
             </Button>
 
             <Button
@@ -40,7 +40,7 @@ export function BottomNav() {
                 onClick={() => setActiveTab("contacts")}
             >
                 <Users className={cn("h-7 w-7", activeTab === "contacts" && "fill-current")} />
-                <span className="text-[10px] font-medium">联系人</span>
+                <span className="text-[0.625rem] font-medium">联系人</span>
             </Button>
 
             <Button
@@ -52,7 +52,7 @@ export function BottomNav() {
                 onClick={() => setActiveTab("settings")}
             >
                 <Settings className={cn("h-7 w-7", activeTab === "settings" && "fill-current")} />
-                <span className="text-[10px] font-medium">设置</span>
+                <span className="text-[0.625rem] font-medium">设置</span>
             </Button>
         </div>
     );

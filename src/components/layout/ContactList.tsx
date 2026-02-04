@@ -201,7 +201,7 @@ export function ContactList({
                                 <div key={group.letter} className="mb-1">
                                     <div
                                         id={`contact-group-${group.letter}`}
-                                        className="px-4 py-1.5 text-[10px] font-semibold text-muted-foreground/70 bg-background/95 sticky top-0 backdrop-blur-md z-10"
+                                        className="px-4 py-1.5 text-xs font-semibold text-muted-foreground/70 bg-background/95 sticky top-0 backdrop-blur-md z-10"
                                     >
                                         {group.letter}
                                     </div>
@@ -260,7 +260,7 @@ export function ContactList({
                                 </div>
                             ))}
                             {groupIndex.length > 1 && (
-                                <div className="absolute right-0.5 top-6 z-20 flex flex-col items-center gap-0.5 text-[9px] text-muted-foreground/70">
+                                <div className="absolute right-0.5 top-6 z-20 flex flex-col items-center gap-0.5 text-[0.625rem] text-muted-foreground/70">
                                     {groupIndex.map((letter) => (
                                         <button
                                             key={`index-${letter}`}

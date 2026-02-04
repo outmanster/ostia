@@ -90,15 +90,6 @@ export function RelayManager({ open }: RelayManagerProps) {
     }
   };
 
-  const handlePublish = async () => {
-    try {
-      // Publish current myRelays
-      await publishRelayList(myRelays);
-    } catch (error) {
-      // Error already shown in store
-    }
-  };
-
   const handleHealthCheck = async () => {
     const urls = [...config.customRelays];
     if (urls.length > 0) {
@@ -139,71 +130,89 @@ export function RelayManager({ open }: RelayManagerProps) {
       <section className="p-3 bg-muted/30 rounded-xl border border-border/50 space-y-3">
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-between">
-            <h3 className="text-xs font-semibold flex items-center gap-2 text-foreground/90">
+            <h3 className="text-xs font-semibold flex items-center gap-2 text-foreground/90 whitespace-nowrap">
               <Server className="h-3.5 w-3.5 text-primary" />
               中继器设置
             </h3>
-            <Dialog open={showAddDialog} onOpenChange={setShowAddDialog}>
-              <DialogTrigger asChild>
-                <Button variant="secondary" size="sm" className="h-6 text-xs font-medium px-2.5 shadow-sm border border-border/50 hover:bg-background">
-                  <Plus className="h-3 w-3 mr-1.5" />
-                  添加中继器
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="max-w-md p-5 rounded-lg border-border shadow-2xl">
-                <DialogHeader>
-                  <DialogTitle className="text-sm font-mono tracking-tighter">添加中继器</DialogTitle>
-                  <DialogDescription className="text-xs">
-                    请输入 WebSocket 协议地址 (wss://)。
-                  </DialogDescription>
-                </DialogHeader>
-                <Input
-                  placeholder="wss://relay.example.com"
-                  value={newRelayUrl}
-                  onChange={(e) => setNewRelayUrl(e.target.value)}
-                  disabled={isAddingRelay}
-                  className="font-mono text-xs h-8 rounded-sm bg-muted/30"
-                />
-                <DialogFooter className="gap-2">
-                  <Button
-                    variant="ghost"
-                    className="h-8 text-xs px-4 rounded-sm"
-                    onClick={() => setShowAddDialog(false)}
+            <div className="flex gap-2 ml-auto">
+              <Button
+                variant="outline"
+                className="h-7 w-7 p-0 rounded-lg border-border/50 hover:bg-background shrink-0"
+                onClick={handleHealthCheck}
+                disabled={isHealthChecking}
+                title="检测连接状态"
+              >
+                {isHealthChecking ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Activity className="h-3.5 w-3.5" />}
+              </Button>
+              <Button
+                variant="outline"
+                className="h-7 w-7 p-0 rounded-lg border-border/50 hover:bg-background shrink-0"
+                onClick={getMyRelays}
+                title="刷新本地状态"
+              >
+                <Loader2 className={`h-3.5 w-3.5 ${isLoading ? 'animate-spin' : ''}`} />
+              </Button>
+              <Dialog open={showAddDialog} onOpenChange={setShowAddDialog}>
+                <DialogTrigger asChild>
+                  <Button variant="secondary" className="h-7 w-7 p-0 rounded-lg border-border/50 hover:bg-background shrink-0">
+                    <Plus className="h-3.5 w-3.5" />
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="max-w-md p-5 rounded-lg border-border shadow-2xl">
+                  <DialogHeader>
+                    <DialogTitle className="text-sm font-mono tracking-tighter">添加中继器</DialogTitle>
+                    <DialogDescription className="text-xs">
+                      请输入 WebSocket 协议地址 (wss://)。
+                    </DialogDescription>
+                  </DialogHeader>
+                  <Input
+                    placeholder="wss://relay.example.com"
+                    value={newRelayUrl}
+                    onChange={(e) => setNewRelayUrl(e.target.value)}
                     disabled={isAddingRelay}
-                  >
-                    取消
-                  </Button>
-                  <Button className="h-8 text-xs px-6 rounded-sm bg-primary" onClick={handleAddRelay} disabled={isAddingRelay}>
-                    {isAddingRelay ? <Loader2 className="h-3 w-3 animate-spin mr-2" /> : null}
-                    {isAddingRelay ? "添加中" : "确认添加"}
-                  </Button>
-                </DialogFooter>
-              </DialogContent>
-            </Dialog>
+                    className="font-mono text-xs h-8 rounded-sm bg-muted/30"
+                  />
+                  <DialogFooter className="gap-2">
+                    <Button
+                      variant="ghost"
+                      className="h-8 text-xs px-4 rounded-sm"
+                      onClick={() => setShowAddDialog(false)}
+                      disabled={isAddingRelay}
+                    >
+                      取消
+                    </Button>
+                    <Button className="h-8 text-xs px-6 rounded-sm bg-primary" onClick={handleAddRelay} disabled={isAddingRelay}>
+                      {isAddingRelay ? <Loader2 className="h-3 w-3 animate-spin mr-2" /> : null}
+                      {isAddingRelay ? "添加中" : "确认添加"}
+                    </Button>
+                  </DialogFooter>
+                </DialogContent>
+              </Dialog>
+            </div>
           </div>
-          <p className="text-[10px] text-muted-foreground leading-relaxed">
-            管理您的中继器。添加中继器后，请点击“同步至网络”以便让其他人发现您。
+          <p className="text-xs text-muted-foreground leading-relaxed">
+            管理您的中继器连接。此处配置仅存储在本地，不会对外公开。
           </p>
         </div>
 
         {isLoading ? (
           <div className="flex items-center justify-center py-4 bg-muted/20 rounded-lg border border-dashed border-border/50">
             <Loader2 className="h-3.5 w-3.5 animate-spin text-muted-foreground mr-2" />
-            <span className="text-[10px] text-muted-foreground font-mono uppercase tracking-widest">正在访问网络...</span>
+            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">正在访问网络...</span>
           </div>
         ) : config.customRelays.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-6 px-4 bg-muted/20 rounded-lg border border-dashed border-border/50 gap-2 text-center">
             <Server className="h-6 w-6 text-muted-foreground/30 mb-1" />
             <p className="text-xs font-medium text-muted-foreground">未连接到网络</p>
             <p className="text-[10px] text-muted-foreground/70 max-w-[240px]">
-              请点击右上角“添加中继器”，以便同步您的中继器列表。
+              请点击右上角“添加中继器”来建立连接。
             </p>
           </div>
         ) : myRelays.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-6 px-4 bg-muted/20 rounded-lg border border-dashed border-border/50 gap-2 text-center">
             <p className="text-xs font-medium text-muted-foreground">中继器列表为空</p>
             <p className="text-[10px] text-muted-foreground/70 max-w-[240px]">
-              暂无中继器。您可以点击右上角添加，然后同步发布。
+              暂无中继器。您可以点击右上角添加。
             </p>
           </div>
         ) : (
@@ -211,39 +220,21 @@ export function RelayManager({ open }: RelayManagerProps) {
             {useUIStore.getState().isMobile ? (
               <div className="divide-y divide-border/30">
                 {myRelays.map((relay, idx) => (
-                  <div key={idx} className="p-2.5 group hover:bg-muted/5 transition-colors">
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2 flex-1 min-w-0">
-                        <span className="font-mono text-[10px] truncate leading-none">{relay.url}</span>
-                        {getHealthDot(relay.url)}
-                      </div>
-                      <Button
-                        size="icon"
-                        variant="ghost"
-                        className="h-5 w-5 text-muted-foreground/40 hover:text-destructive transition-colors shrink-0"
-                        onClick={() => handleRemoveRelay(relay.url)}
-                      >
-                        <Trash2 className="h-3 w-3" />
-                      </Button>
+                  <div key={idx} className="p-3 group hover:bg-muted/5 transition-colors flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-3 min-w-0 flex-1">
+                      {getHealthDot(relay.url)}
+                      <span className="font-mono text-xs truncate" title={relay.url}>
+                        {relay.url}
+                      </span>
                     </div>
-                    <div className="flex gap-4">
-                      <div className="flex items-center gap-2">
-                        <span className="text-[0.6rem] text-muted-foreground font-medium uppercase tracking-tighter">读取</span>
-                        <Switch
-                          className="scale-75 origin-left"
-                          checked={relay.read}
-                          onCheckedChange={(checked: boolean) => updateLocalRelay(relay.url, checked, relay.write)}
-                        />
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-[0.6rem] text-muted-foreground font-medium uppercase tracking-tighter">写入</span>
-                        <Switch
-                          className="scale-75 origin-left"
-                          checked={relay.write}
-                          onCheckedChange={(checked: boolean) => updateLocalRelay(relay.url, relay.read, checked)}
-                        />
-                      </div>
-                    </div>
+                    <Button
+                      size="icon"
+                      variant="ghost"
+                      className="h-8 w-8 text-muted-foreground/40 hover:text-destructive shrink-0"
+                      onClick={() => handleRemoveRelay(relay.url)}
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
                   </div>
                 ))}
               </div>
@@ -258,26 +249,6 @@ export function RelayManager({ open }: RelayManagerProps) {
                           <span className="font-mono text-[10px] opacity-80 group-hover:opacity-100 transition-opacity" title={relay.url}>
                             {relay.url}
                           </span>
-                        </div>
-                      </TableCell>
-                      <TableCell className="w-14 py-1">
-                        <div className="flex items-center gap-1.5 text-[0.6rem] text-muted-foreground">
-                          <span>读</span>
-                          <Switch
-                            className="scale-75"
-                            checked={relay.read}
-                            onCheckedChange={(checked: boolean) => updateLocalRelay(relay.url, checked, relay.write)}
-                          />
-                        </div>
-                      </TableCell>
-                      <TableCell className="w-14 py-1">
-                        <div className="flex items-center gap-1.5 text-[0.6rem] text-muted-foreground">
-                          <span>写</span>
-                          <Switch
-                            className="scale-75"
-                            checked={relay.write}
-                            onCheckedChange={(checked: boolean) => updateLocalRelay(relay.url, relay.read, checked)}
-                          />
                         </div>
                       </TableCell>
                       <TableCell className="w-8 py-1">
@@ -298,16 +269,7 @@ export function RelayManager({ open }: RelayManagerProps) {
           </div>
         )}
 
-        <div className="flex gap-2 pt-1">
-          <Button
-            className="flex-1 h-7 rounded-lg font-mono text-[10px] uppercase tracking-widest bg-primary shadow-none transition-all"
-            onClick={handlePublish}
-            disabled={isPublishing || config.customRelays.length === 0}
-            title={config.customRelays.length === 0 ? "请先添加中继器" : "发布当前配置到网络"}
-          >
-            {isPublishing ? <Loader2 className="h-3 w-3 animate-spin mr-2" /> : <Save className="h-3 w-3 mr-2" />}
-            同步至网络
-          </Button>
+        <div className="hidden">
           <Button
             variant="outline"
             className="h-7 w-7 p-0 rounded-lg border-border/50 hover:bg-muted/50 transition-colors"
