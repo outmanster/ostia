@@ -105,7 +105,7 @@ const MessageRow = ({
       {/* Avatar */}
       <Avatar className="h-7 w-7 shrink-0 shadow-sm border border-background/20 cursor-pointer hover:opacity-90 transition-opacity pb-0">
         <AvatarImage src={avatarUrl} className="object-cover" />
-        <AvatarFallback className="text-[10px] font-bold bg-muted text-muted-foreground">
+        <AvatarFallback className="text-[0.625rem] font-bold bg-muted text-muted-foreground">
           {initials}
         </AvatarFallback>
       </Avatar>

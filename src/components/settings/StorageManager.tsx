@@ -180,7 +180,7 @@ export function StorageManager() {
             <HardDrive className="h-3 w-3 text-primary" />
             维护与清理
           </h3>
-          <p className="text-[10px] text-muted-foreground leading-relaxed">
+          <p className="text-[0.625rem] text-muted-foreground leading-relaxed">
             执行数据库优化和过期数据清理操作，释放存储空间。
           </p>
         </div>
@@ -215,7 +215,7 @@ export function StorageManager() {
                     <Badge variant="outline" className="text-[0.6rem] px-1 py-0 h-3.5 border-primary/20 text-primary bg-primary/5">{op.badge}</Badge>
                   )}
                 </div>
-                <p className="text-[10px] text-muted-foreground leading-normal">
+                <p className="text-[0.625rem] text-muted-foreground leading-normal">
                   {op.desc}
                 </p>
               </div>
@@ -247,7 +247,7 @@ export function StorageManager() {
             <Archive className="h-3 w-3 text-primary" />
             备份与恢复
           </h3>
-          <p className="text-[10px] text-muted-foreground leading-relaxed">
+          <p className="text-[0.625rem] text-muted-foreground leading-relaxed">
             将本地数据导出为备份文件，或从备份文件恢复数据。
           </p>
         </div>
@@ -262,7 +262,7 @@ export function StorageManager() {
             {isExporting ? <Loader2 className="h-4 w-4 animate-spin text-primary" /> : <FileOutput className="h-4 w-4 text-primary" />}
             <div className="space-y-0">
               <span className="text-xs font-semibold block">导出数据</span>
-              <span className="text-[10px] text-muted-foreground block font-normal">保存为 .db 文件</span>
+              <span className="text-[0.625rem] text-muted-foreground block font-normal">保存为 .db 文件</span>
             </div>
           </Button>
 
@@ -275,7 +275,7 @@ export function StorageManager() {
             {isImporting ? <Loader2 className="h-4 w-4 animate-spin text-primary" /> : <FileInput className="h-4 w-4 text-primary" />}
             <div className="space-y-0">
               <span className="text-xs font-semibold block">导入数据</span>
-              <span className="text-[10px] text-muted-foreground block font-normal">覆盖当前数据</span>
+              <span className="text-[0.625rem] text-muted-foreground block font-normal">覆盖当前数据</span>
             </div>
           </Button>
         </div>

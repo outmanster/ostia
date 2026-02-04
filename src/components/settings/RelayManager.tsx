@@ -123,8 +123,8 @@ export function RelayManager({ open }: RelayManagerProps) {
       <section className="p-3 bg-muted/30 rounded-xl border border-border/50 space-y-3">
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-between">
-            <h3 className="text-xs font-semibold flex items-center gap-2 text-foreground/90 whitespace-nowrap">
-              <Server className="h-3.5 w-3.5 text-primary" />
+            <h3 className="text-sm font-semibold flex items-center gap-2 text-foreground/90 whitespace-nowrap">
+              <Server className="h-4 w-4 text-primary" />
               中继器设置
             </h3>
             <div className="flex gap-2 ml-auto">
@@ -196,15 +196,15 @@ export function RelayManager({ open }: RelayManagerProps) {
         ) : config.customRelays.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-6 px-4 bg-muted/20 rounded-lg border border-dashed border-border/50 gap-2 text-center">
             <Server className="h-6 w-6 text-muted-foreground/30 mb-1" />
-            <p className="text-xs font-medium text-muted-foreground">未连接到网络</p>
-            <p className="text-[10px] text-muted-foreground/70 max-w-[240px]">
+            <p className="text-sm font-medium text-muted-foreground">未连接到网络</p>
+            <p className="text-xs text-muted-foreground/70 max-w-[240px]">
               请点击右上角“添加中继器”来建立连接。
             </p>
           </div>
         ) : myRelays.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-6 px-4 bg-muted/20 rounded-lg border border-dashed border-border/50 gap-2 text-center">
-            <p className="text-xs font-medium text-muted-foreground">中继器列表为空</p>
-            <p className="text-[10px] text-muted-foreground/70 max-w-[240px]">
+            <p className="text-sm font-medium text-muted-foreground">中继器列表为空</p>
+            <p className="text-xs text-muted-foreground/70 max-w-[240px]">
               暂无中继器。您可以点击右上角添加。
             </p>
           </div>
@@ -216,7 +216,7 @@ export function RelayManager({ open }: RelayManagerProps) {
                   <div key={idx} className="p-3 group hover:bg-muted/5 transition-colors flex items-center justify-between gap-3">
                     <div className="flex items-center gap-3 min-w-0 flex-1">
                       {getHealthDot(relay.url)}
-                      <span className="font-mono text-xs truncate" title={relay.url}>
+                      <span className="font-mono text-sm truncate" title={relay.url}>
                         {relay.url}
                       </span>
                     </div>
@@ -239,7 +239,7 @@ export function RelayManager({ open }: RelayManagerProps) {
                       <TableCell className="py-1">
                         <div className="flex items-center gap-2">
                           {getHealthDot(relay.url)}
-                          <span className="font-mono text-[10px] opacity-80 group-hover:opacity-100 transition-opacity" title={relay.url}>
+                          <span className="font-mono text-xs opacity-80 group-hover:opacity-100 transition-opacity" title={relay.url}>
                             {relay.url}
                           </span>
                         </div>
@@ -286,11 +286,11 @@ export function RelayManager({ open }: RelayManagerProps) {
       {/* 媒体服务器配置 */}
       <section className="p-3 bg-muted/30 rounded-lg border border-border/50 space-y-3">
         <div className="space-y-1">
-          <h3 className="text-xs font-semibold flex items-center gap-2">
-            <Activity className="h-3 w-3 text-primary" />
+          <h3 className="text-sm font-semibold flex items-center gap-2">
+            <Activity className="h-4 w-4 text-primary" />
             媒体服务器
           </h3>
-          <p className="text-[10px] text-muted-foreground leading-relaxed">
+          <p className="text-xs text-muted-foreground leading-relaxed">
             配置用于图片上传的 Blossom 服务器地址。
           </p>
         </div>
@@ -302,7 +302,7 @@ export function RelayManager({ open }: RelayManagerProps) {
               placeholder="https://blossom.example.com"
               value={config.mediaServer || ""}
               onChange={(e) => useRelayStore.getState().updateMediaServer(e.target.value)}
-              className="flex-1 h-8 rounded-sm border border-border/50 bg-background/50 px-3 text-[10px] font-mono focus:outline-none focus:ring-1 focus:ring-primary/30"
+              className="flex-1 h-9 rounded-sm border border-border/50 bg-background/50 px-3 text-sm font-mono focus:outline-none focus:ring-1 focus:ring-primary/30"
             />
             <div className="w-[60px] flex items-center justify-end">
               <Button
@@ -318,7 +318,7 @@ export function RelayManager({ open }: RelayManagerProps) {
                     toast.error(`更新失败: ${error}`);
                   }
                 }}
-                className="h-8 w-full rounded-lg text-[10px]"
+                className="h-9 w-full rounded-lg text-xs"
               >
                 保存
               </Button>
@@ -331,10 +331,10 @@ export function RelayManager({ open }: RelayManagerProps) {
                 placeholder="AUTH_TOKEN (可选)"
                 value={config.mediaServerToken || ""}
                 onChange={(e) => useRelayStore.getState().updateMediaServerToken(e.target.value)}
-                className="flex-1 min-w-0 max-w-full overflow-hidden text-[10px] text-muted-foreground font-mono bg-background/50 border border-border/30 px-3 py-1.5 rounded-sm min-h-[36px] focus:outline-none focus:ring-1 focus:ring-primary/30"
+                className="flex-1 min-w-0 max-w-full overflow-hidden text-sm text-muted-foreground font-mono bg-background/50 border border-border/30 px-3 py-1.5 rounded-sm min-h-[36px] focus:outline-none focus:ring-1 focus:ring-primary/30"
               />
             ) : (
-              <div className="flex-1 min-w-0 max-w-full overflow-hidden text-[10px] text-muted-foreground font-mono bg-background/50 border border-border/30 px-3 py-1.5 rounded-sm min-h-[36px] flex items-center">
+              <div className="flex-1 min-w-0 max-w-full overflow-hidden text-sm text-muted-foreground font-mono bg-background/50 border border-border/30 px-3 py-1.5 rounded-sm min-h-[36px] flex items-center">
                 {config.mediaServerToken ? (
                   <span className="block w-full truncate whitespace-nowrap opacity-50">••••••••••••••••••••••••••••••••</span>
                 ) : (

@@ -223,7 +223,7 @@ export function ContactList({
                                                             <div className="relative shrink-0">
                                                                 <Avatar className={`h-9 w-9 border border-border/10 transition-transform group-active:scale-95 ${selectedNpub === contact.npub ? "ring-2 ring-primary ring-offset-2" : ""}`}>
                                                                     <AvatarImage src={contact.picture} />
-                                                                    <AvatarFallback className="bg-muted text-muted-foreground font-medium text-[10px]">
+                                                                    <AvatarFallback className="bg-muted text-muted-foreground font-medium text-[0.625rem]">
                                                                         {getInitials(contact)}
                                                                     </AvatarFallback>
                                                                 </Avatar>
@@ -238,7 +238,7 @@ export function ContactList({
                                                                         {getDisplayName(contact)}
                                                                     </p>
                                                                 </div>
-                                                                <p className="text-[10px] text-muted-foreground/60 truncate font-mono mt-0.5">
+                                                                <p className="text-[0.625rem] text-muted-foreground/60 truncate font-mono mt-0.5">
                                                                     {contact.npub.slice(0, 10)}...{contact.npub.slice(-4)}
                                                                 </p>
                                                             </div>

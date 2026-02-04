@@ -77,7 +77,7 @@ export function Sidebar() {
       {/* Title and Tabs */}
       <div className="shrink-0 pt-2 px-2 space-y-2">
         <div className="flex items-center justify-between px-1">
-          <h2 className="font-bold text-[10px] uppercase tracking-widest text-muted-foreground">
+          <h2 className="font-bold text-[0.625rem] uppercase tracking-widest text-muted-foreground">
             {activeTab === "chats" ? "消息列表" : "联系人"}
           </h2>
           <Button
@@ -159,7 +159,7 @@ export function Sidebar() {
               <span className="font-semibold text-xs truncate">
                 {profile?.displayName || profile?.name || truncateNpub(npub || "", 6)}
               </span>
-              <span className="text-[10px] text-muted-foreground font-mono opacity-60">
+              <span className="text-[0.625rem] text-muted-foreground font-mono opacity-60">
                 {truncateNpub(npub || "", 4)}
               </span>
             </div>

@@ -1200,7 +1200,7 @@ export function SettingsDialog({ open, onOpenChange, onSwipeStart, onSwipeMove, 
                         ))}
                       </div>
                     </div>
-                    <span className="text-[16px] text-muted-foreground shrink-0 leading-none font-medium">A</span>
+                    <span className="text-base text-muted-foreground shrink-0 leading-none font-medium">A</span>
                   </div>
                   <div className="h-1" />
                 </div>

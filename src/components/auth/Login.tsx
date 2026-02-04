@@ -78,7 +78,7 @@ export function Login({ onSwitchToRegister }: LoginProps) {
         </div>
 
         {displayError && (
-          <div className="flex items-center gap-2 text-[10px] text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
+          <div className="flex items-center gap-2 text-[0.625rem] text-destructive font-mono bg-destructive/5 border border-destructive/20 p-2">
             <ArrowRight className="h-3 w-3" />
             {displayError}
           </div>
