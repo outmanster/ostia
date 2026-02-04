@@ -3,7 +3,6 @@ import { useRelayStore } from "@/store/relayStore";
 import { useUIStore } from "@/store/uiStore";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Switch } from "@/components/ui/switch";
 
 import {
   Dialog,
@@ -20,7 +19,7 @@ import {
   TableCell,
   TableRow,
 } from "@/components/ui/table";
-import { Loader2, Plus, Trash2, Activity, Server, Save, Eye, EyeOff, Copy } from "lucide-react";
+import { Loader2, Plus, Trash2, Activity, Server, Eye, EyeOff, Copy } from "lucide-react";
 import { useAuthStore } from "@/store/authStore";
 import { invoke } from "@tauri-apps/api/core";
 import { toast } from "sonner";
@@ -36,10 +35,8 @@ export function RelayManager({ open }: RelayManagerProps) {
     config,
     statuses,
     isLoading,
-    isPublishing,
     isHealthChecking,
     getMyRelays,
-    publishRelayList,
     addCustomRelay,
     removeCustomRelay,
     getRelayConfig,
@@ -52,10 +49,6 @@ export function RelayManager({ open }: RelayManagerProps) {
   const [showAddDialog, setShowAddDialog] = useState(false);
   const [isAddingRelay, setIsAddingRelay] = useState(false);
   const [showMediaServerToken, setShowMediaServerToken] = useState(false);
-
-  const {
-    updateLocalRelay
-  } = useRelayStore();
 
   useEffect(() => {
     if (open && isAuthenticated) {

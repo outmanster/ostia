@@ -105,7 +105,7 @@ export function Sidebar() {
             <span>消息</span>
             {totalUnread > 0 && (
               <span className="absolute top-1 right-2 flex min-w-[16px] h-[16px] items-center justify-center rounded-full bg-red-500 text-[0.625rem] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
-                {badge > 99 ? "99+" : badge}
+                {totalUnread > 99 ? "99+" : totalUnread}
               </span>
             )}
           </button>

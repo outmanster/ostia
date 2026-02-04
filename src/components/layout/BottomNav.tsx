@@ -24,7 +24,7 @@ export function BottomNav() {
                     <MessageSquare className={cn("h-7 w-7", activeTab === "chats" && "fill-current")} />
                     {totalUnread > 0 && (
                         <span className="absolute -top-1 -right-1.5 flex min-w-[16px] h-[16px] items-center justify-center rounded-full bg-red-500 text-[0.625rem] leading-none font-bold text-white ring-2 ring-background shadow-sm px-0.5 z-10">
-                          {unreadTotal > 99 ? "99+" : unreadTotal}
+                          {totalUnread > 99 ? "99+" : totalUnread}
                         </span>
                     )}
                 </div>
