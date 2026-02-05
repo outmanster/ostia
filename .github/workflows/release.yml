@@ -88,7 +88,7 @@ jobs:
       - name: Build Android APK (Debug)
         # 默认构建 Debug 包。如需构建 Release 包，需要配置签名密钥
         # 参考: https://v2.tauri.app/start/migrate/from-v1/#android-signing
-        run: pnpm tauri android build --apk --target universal
+        run: pnpm tauri android build --apk=true --target universal
 
       - name: Upload Android Assets
         uses: softprops/action-gh-release@v1
