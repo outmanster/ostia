@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostia - 隐私优先的 Nostr 社交客户端</title>
+    <meta name="description" content="Ostia 是一个基于 Nostr 协议构建的跨平台即时通讯应用，采用端到端加密和隐私优先设计。支持 iOS, Android, Windows, macOS, Linux。">
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --text-color: #ffffff;
+            --text-secondary: #a1a1aa;
+            --accent-color: #2563eb;
+            --accent-hover: #1d4ed8;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --code-bg: #1a1a1a;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .nav-logo img {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                width: 100%;
+                justify-content: center;
+                gap: 1.5rem;
+                flex-wrap: wrap;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .logo-large {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-large:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0.5rem 0 1rem 0;
+            background: linear-gradient(135deg, #fff 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        p.subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Downloads Grid */
+        .downloads-section {
+            margin-bottom: 5rem;
+        }
+
+        .downloads-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .download-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.2s, border-color 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .download-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-color);
+        }
+
+        .os-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 1rem;
+            fill: currentColor;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+
+        .download-btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .download-btn.secondary {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+        }
+        
+        .download-btn.secondary:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: white;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: white;
+            margin-top: 2rem;
+            font-size: 1.3rem;
+        }
+
+        p {
+            color: #d4d4d8;
+        }
+
+        ul, ol {
+            color: #d4d4d8;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Code Blocks */
+        pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+        }
+
+        code {
+            font-family: monospace;
+            color: #60a5fa;
+        }
+        
+        pre code {
+            color: #e4e4e7;
+        }
+
+        .copy-box {
+            background: var(--card-bg);
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            font-family: monospace;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            border: 1px solid var(--border-color);
+            word-break: break-all;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .copy-box:hover {
+            background: rgba(255,255,255,0.08);
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .feature-card h3 {
+            margin-top: 0;
+            color: #60a5fa;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: rgba(37, 99, 235, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(37, 99, 235, 0.2);
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: #52525b;
+            font-size: 0.875rem;
+        }
+        
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="nav-logo">
+                <img src="./logo_padded.png" alt="Logo">
+                Ostia
+            </a>
+            <div class="nav-links">
+                <a href="#features">功能特性</a>
+                <a href="#downloads">下载</a>
+                <a href="#guide">使用指南</a>
+                <a href="#dev">开发文档</a>
+            </div>
+        </nav>
+
+        <header>
+            <img src="./logo_padded.png" alt="Ostia Logo" class="logo-large">
+            <br>
+            <span class="badge">v1.0.0 Public Beta</span>
+            <h1>Ostia</h1>
+            <p class="subtitle">
+                去中心化、端到端加密、绝对隐私。<br>
+                基于 Nostr 协议的下一代跨平台社交体验。
+            </p>
+        </header>
+
+        <section id="downloads" class="downloads-section">
+            <h2 style="text-align: center; border: none;">全平台下载</h2>
+            <div class="downloads-grid">
+                <!-- iOS -->
+                <div class="download-card">
+                    <h3>iOS</h3>
+                    <p>通过 AltStore 安装</p>
+                    <a href="altstore://source?url=https://ostia.opensaas.cc/altstore.json" class="download-btn">添加到 AltStore</a>
+                    <a href="./ostia.ipa" class="download-btn secondary" style="margin-top: 0.5rem;">下载 IPA</a>
+                </div>
+                
+                <!-- Android -->
+                <div class="download-card">
+                    <h3>Android</h3>
+                    <p>APK 直接安装</p>
+                    <a href="https://github.com/outmanster/ostia/releases/download/v1.0.0/app-universal-debug.apk" class="download-btn">下载 APK</a>
+                </div>
+
+                <!-- Windows -->
+                <div class="download-card">
+                    <h3>Windows</h3>
+                    <p>Windows 10/11</p>
+                    <a href="https://github.com/outmanster/ostia/releases/download/v1.0.0/Ostia_1.0.0_x64-setup.exe" class="download-btn">下载 EXE</a>
+                </div>
+
+                <!-- macOS -->
+                <div class="download-card">
+                    <h3>macOS</h3>
+                    <p>Apple Silicon / Intel</p>
+                    <a href="https://github.com/outmanster/ostia/releases/download/v1.0.0/Ostia_1.0.0_universal.dmg" class="download-btn">下载 DMG</a>
+                </div>
+
+                <!-- Linux -->
+                <div class="download-card">
+                    <h3>Linux</h3>
+                    <p>Debian / Ubuntu</p>
+                    <a href="https://github.com/outmanster/ostia/releases/download/v1.0.0/Ostia_1.0.0_amd64.deb" class="download-btn">下载 DEB</a>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <div class="card" style="max-width: 600px; margin: 0 auto; background: var(--card-bg); padding: 1.5rem; border-radius: 12px;">
+                    <h3 style="margin-top:0;">🚀 iOS 安装特别说明</h3>
+                    <ol style="text-align: left;">
+                        <li>确保已安装 <strong>AltStore</strong> 或 <strong>SideStore</strong>。</li>
+                        <li>点击“添加到 AltStore”或复制下方链接手动添加源：</li>
+                    </ol>
+                    <div class="copy-box" onclick="copyUrl()">
+                        <code id="source-url">https://ostia.opensaas.cc/altstore.json</code>
+                        <span>📋</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>功能特性</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🔒 端到端加密</h3>
+                    <p>默认使用 NIP-17 协议对私信进行高强度加密，确保只有你和接收者能看到消息内容，中继器无法窥探。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌍 去中心化网络</h3>
+                    <p>不依赖单一中心服务器。你可以连接到任何公共中继器，或搭建自己的中继器，掌握数据主权。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 全平台同步</h3>
+                    <p>支持 iOS、Android、Windows、macOS 和 Linux。消息记录在所有设备间无缝同步。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ 极速体验</h3>
+                    <p>基于 Rust 和 Tauri 2.0 构建，性能卓越，内存占用极低，启动速度快。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide">
+            <h2>使用指南</h2>
+            
+            <h3>1. 添加公共中继器 (Public Relay)</h3>
+            <p>为了保证消息收发的可靠性，建议添加多个公共中继器。在 Ostia 的「设置 -> 网络 -> 中继器」中添加：</p>
+            <ul>
+                <li><code>wss://relay.damus.io</code></li>
+                <li><code>wss://nos.lol</code></li>
+                <li><code>wss://relay.nostr.band</code></li>
+            </ul>
+
+            <h3>2. 部署私有中继器 (Self-hosted Relay)</h3>
+            <p>如果你希望拥有完全的数据控制权，可以使用 Docker 快速部署自己的中继器：</p>
+            <pre><code># 1. 获取部署文件
+git clone https://github.com/outmanster/ostia.git
+cd ostia/deployment
+
+# 2. 启动 Nostr Relay
+docker-compose up -d nostr-relay</code></pre>
+            <p>部署完成后，在客户端中添加 <code>ws://localhost:9200</code> (本地) 或你的服务器域名即可。</p>
+
+            <h3>3. 搭建媒体服务器 (Blossom Server)</h3>
+            <p>Ostia 支持 Blossom 协议进行图片和文件上传。你可以选择本地运行或部署到 Cloudflare。</p>
+            
+            <h4>方案 A：本地 Node.js 运行</h4>
+            <pre><code>cd ostia/server
+# 启动服务 (默认端口 9300)
+node blossom-server.cjs</code></pre>
+            
+            <h4>方案 B：Cloudflare Workers (推荐)</h4>
+            <p>利用 Cloudflare KV 实现全球加速的媒体存储：</p>
+            <ol>
+                <li>在 Cloudflare 创建 KV 命名空间 <code>ostia-media-kv</code>。</li>
+                <li>创建 Worker 并复制 <a href="https://github.com/outmanster/ostia/blob/main/server/cloudflare/blossom-worker.js" target="_blank">blossom-worker.js</a> 的代码。</li>
+                <li>绑定 KV 变量 <code>MEDIA_KV</code>。</li>
+                <li>部署后，将 Worker URL 填入 Ostia 的「设置 -> 媒体服务器」。</li>
+            </ol>
+        </section>
+
+        <section id="dev">
+            <h2>开发文档</h2>
+            <p>Ostia 是开源软件，欢迎参与贡献！</p>
+            
+            <h3>环境准备</h3>
+            <ul>
+                <li><strong>Rust</strong>: 最新稳定版</li>
+                <li><strong>Node.js</strong>: v18+ (推荐 pnpm)</li>
+                <li><strong>Tauri</strong>: v2.0 CLI</li>
+            </ul>
+
+            <h3>快速启动</h3>
+            <pre><code># 1. 克隆仓库
+git clone https://github.com/outmanster/ostia.git
+cd ostia
+
+# 2. 安装依赖
+pnpm install
+
+# 3. 运行开发模式
+pnpm tauri dev</code></pre>
+
+            <p>更多详情请查阅 <a href="https://github.com/outmanster/ostia/blob/main/CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a>。</p>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2026 Ostia Team. Open Source Software.</p>
+            <p>
+                <a href="https://github.com/outmanster/ostia">GitHub</a> | 
+                <a href="https://nostr.com">Nostr Protocol</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function copyUrl() {
+            const url = document.getElementById('source-url').innerText;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('链接已复制到剪贴板');
+            });
+        }
+    </script>
+</body>
+
+</html>
