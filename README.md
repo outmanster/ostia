@@ -2,7 +2,7 @@
 
 > 隐私优先的 Nostr 即时通讯应用（端到端加密）
 
-## 当前状态（2026-02-03）
+## 当前状态（2026-02-05）
 
 - 版本：v1.0.0
 - **已验证平台**：Windows、Android、iOS 均已完成验证测试
@@ -10,7 +10,6 @@
   - Windows：核心功能完整，文本与图片消息正常
   - Android：功能完整，Windows ↔ Android 消息收发与离线同步正常
   - iOS：功能完整，已完成验证测试
-- **已知问题**：Android 端图片消息在接收时偶尔会丢失 URL 片段，导致无法解密（正在修复中）
 
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/outmanster/ostia)
