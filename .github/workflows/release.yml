@@ -1,0 +1,98 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  release-desktop:
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macos-latest, ubuntu-22.04, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: install pnpm
+        run: npm install -g pnpm
+
+      - name: install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+
+      - name: install dependencies (ubuntu only)
+        if: matrix.platform == 'ubuntu-22.04'
+        # You can remove libayatana-appindicator3-dev if you don't use the system tray feature.
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev build-essential curl wget file libssl-dev libgtk-3-dev libayatana-appindicator3-dev
+
+      - name: install frontend dependencies
+        run: pnpm install
+
+      - name: Build and upload
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: 'Ostia ${{ github.ref_name }}'
+          releaseBody: 'See the assets to download this version and install.'
+          releaseDraft: true
+          prerelease: false
+          args: ${{ matrix.platform == 'macos-latest' && '--target universal-apple-darwin' || '' }}
+
+  release-android:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: install pnpm
+        run: npm install -g pnpm
+
+      - name: setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+
+      - name: install frontend dependencies
+        run: pnpm install
+
+      - name: Build Android APK (Debug)
+        # 默认构建 Debug 包。如需构建 Release 包，需要配置签名密钥
+        # 参考: https://v2.tauri.app/start/migrate/from-v1/#android-signing
+        run: pnpm tauri android build --apk
+
+      - name: Upload Android Assets
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            src-tauri/gen/android/app/build/outputs/apk/universal/debug/app-universal-debug.apk

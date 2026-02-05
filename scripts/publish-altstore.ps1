@@ -1,7 +1,7 @@
 param(
     [string]$IpaPath = "d:\Ostia\altstore\ostia.ipa",
-    [string]$IpaUrl = "https://example.com/ostia.ipa",
-    [string]$SourceUrl = "https://example.com/altstore.json",
+    [string]$IpaUrl = "https://ostia.opensaas.cc/ostia.ipa",
+    [string]$SourceUrl = "https://ostia.opensaas.cc/altstore.json",
     [string]$Output = "d:\Ostia\altstore\altstore.json"
 )
 
