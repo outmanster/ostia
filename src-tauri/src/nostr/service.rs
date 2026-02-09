@@ -13,7 +13,7 @@ use tauri::Window;
 use crate::nostr::relay::RelayManager;
 use crate::nostr::sync::MessageSyncManager;
 use crate::nostr::media::MediaUploader;
-use crate::nostr::nip65::{Nip65Manager, RelayListEntry, is_public_relay_url};
+use crate::nostr::nip65::{Nip65Manager, RelayHealthResult, RelayListEntry, is_public_relay_url};
 use crate::nostr::encryption::{Nip44Encryption, EncryptedMessage};
 use crate::nostr::auth::HttpAuthManager;
 use crate::storage::database::{Database, MessageRecord};
@@ -1151,17 +1151,17 @@ impl NostrService {
     }
 
     /// Check relay health
-    pub async fn check_relay_health(&self, relay_url: &str) -> Result<bool, Box<dyn std::error::Error + Send + Sync>> {
+    pub async fn check_relay_health(&self, relay_url: &str) -> Result<RelayHealthResult, Box<dyn std::error::Error + Send + Sync>> {
         let nip65_guard = self.nip65_manager.read().await;
-        let healthy = nip65_guard.check_relay_health(relay_url).await;
-        Ok(healthy)
+        let result = nip65_guard.check_relay_health(relay_url).await;
+        Ok(result)
     }
 
     /// Check health of multiple relays
     pub async fn check_relays_health(
         &self,
         relay_urls: Vec<String>,
-    ) -> Result<Vec<(String, bool)>, Box<dyn std::error::Error + Send + Sync>> {
+    ) -> Result<Vec<RelayHealthResult>, Box<dyn std::error::Error + Send + Sync>> {
         let nip65_guard = self.nip65_manager.read().await;
         let results = nip65_guard.check_relays_health(&relay_urls).await;
         Ok(results)

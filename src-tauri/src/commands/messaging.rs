@@ -47,7 +47,7 @@ pub async fn import_database(state: State<'_, AppState>, path: String) -> Result
 
 use nostr_sdk::ToBech32;
 
-use crate::nostr::nip65::RelayListEntry;
+use crate::nostr::nip65::{RelayHealthResult, RelayListEntry};
 use crate::storage::database::{MessageRecord, ChatSession};
 use crate::storage::secure::get_stored_key;
 use crate::AppState;
@@ -781,7 +781,7 @@ pub async fn publish_relay_list(
 pub async fn check_relay_health(
     state: State<'_, AppState>,
     relay_url: String,
-) -> Result<bool, String> {
+) -> Result<RelayHealthResult, String> {
     // Get the stored key
     let key = get_stored_key().ok_or_else(|| "未找到私钥".to_string())?;
 
@@ -793,13 +793,13 @@ pub async fn check_relay_health(
         .map_err(|e| format!("Failed to initialize Nostr service: {}", e))?;
 
     // Check relay health
-    let healthy = state
+    let result = state
         .nostr_service
         .check_relay_health(&relay_url)
         .await
         .map_err(|e| format!("Failed to check relay health: {}", e))?;
 
-    Ok(healthy)
+    Ok(result)
 }
 
 /// Check health of multiple relays
@@ -807,7 +807,7 @@ pub async fn check_relay_health(
 pub async fn check_relays_health(
     state: State<'_, AppState>,
     relay_urls: Vec<String>,
-) -> Result<Vec<(String, bool)>, String> {
+) -> Result<Vec<RelayHealthResult>, String> {
     // Get the stored key
     let key = get_stored_key().ok_or_else(|| "未找到私钥".to_string())?;
 

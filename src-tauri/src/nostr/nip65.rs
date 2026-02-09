@@ -11,6 +11,13 @@ pub struct RelayListEntry {
     pub write: bool,
 }
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct RelayHealthResult {
+    pub url: String,
+    pub status: String,
+    pub reason: Option<String>,
+}
+
 /// Check if a relay URL is a public address (not Android emulator private network)
 /// This prevents Android emulator addresses (10.0.2.2) from being used in cross-device communication
 /// Note: localhost is allowed because users may use it for local testing with port forwarding
@@ -333,30 +340,76 @@ impl Nip65Manager {
 
     /// Perform health check on a relay
     /// Returns true if relay is responsive
-    pub async fn check_relay_health(&self, _relay_url: &str) -> bool {
+    pub async fn check_relay_health(&self, relay_url: &str) -> RelayHealthResult {
+        let relay_url = relay_url.trim();
+        if relay_url.is_empty() {
+            return RelayHealthResult {
+                url: relay_url.to_string(),
+                status: "invalid".to_string(),
+                reason: Some("地址为空".to_string()),
+            };
+        }
+
         let client = match &self.client {
             Some(c) => c,
-            None => return false,
+            None => {
+                return RelayHealthResult {
+                    url: relay_url.to_string(),
+                    status: "disconnected".to_string(),
+                    reason: Some("客户端未初始化".to_string()),
+                };
+            }
         };
 
-        // Try to fetch a simple filter to test connectivity
-        let filter = Filter::new()
-            .limit(1);
+        if let Err(error) = client.add_relay(relay_url.to_string()).await {
+            return RelayHealthResult {
+                url: relay_url.to_string(),
+                status: "invalid".to_string(),
+                reason: Some(format!("地址无效: {}", error)),
+            };
+        }
 
-        // Use a shorter timeout for health checks
-        match client.fetch_events(vec![filter], Duration::from_secs(5)).await {
-            Ok(_) => true,
-            Err(_) => false,
+        if let Ok(relay) = client.relay(relay_url).await {
+            let _ = relay.connect(Some(Duration::from_secs(5))).await;
+            if relay.is_connected() {
+                return RelayHealthResult {
+                    url: relay_url.to_string(),
+                    status: "connected".to_string(),
+                    reason: None,
+                };
+            }
+        }
+
+        if relay_url.contains("localhost") {
+            let fallback = relay_url.replace("localhost", "127.0.0.1");
+            if fallback != relay_url && client.add_relay(fallback.clone()).await.is_ok() {
+                if let Ok(relay) = client.relay(&fallback).await {
+                    let _ = relay.connect(Some(Duration::from_secs(5))).await;
+                    if relay.is_connected() {
+                        return RelayHealthResult {
+                            url: relay_url.to_string(),
+                            status: "connected".to_string(),
+                            reason: None,
+                        };
+                    }
+                }
+            }
+        }
+
+        RelayHealthResult {
+            url: relay_url.to_string(),
+            status: "disconnected".to_string(),
+            reason: Some("连接失败或超时".to_string()),
         }
     }
 
     /// Check health of multiple relays concurrently
-    pub async fn check_relays_health(&self, relay_urls: &[String]) -> Vec<(String, bool)> {
+    pub async fn check_relays_health(&self, relay_urls: &[String]) -> Vec<RelayHealthResult> {
         let mut results = Vec::new();
 
         for url in relay_urls {
-            let healthy = self.check_relay_health(url).await;
-            results.push((url.clone(), healthy));
+            let result = self.check_relay_health(url).await;
+            results.push(result);
         }
 
         results

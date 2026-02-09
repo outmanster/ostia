@@ -107,13 +107,15 @@ export function RelayManager({ open }: RelayManagerProps) {
     const status = statuses.find((s) => s.url === url);
     if (!status) return <div className="h-1.5 w-1.5 rounded-full bg-muted-foreground/30 animate-pulse" />;
 
+    const title = status.reason ? `${status.status}：${status.reason}` : status.status;
+
     switch (status.status) {
       case "connected":
-        return <div className="h-1.5 w-1.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]" />;
+        return <div title={title} className="h-1.5 w-1.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]" />;
       case "connecting":
-        return <div className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse" />;
+        return <div title={title} className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse" />;
       default:
-        return <div className="h-1.5 w-1.5 rounded-full bg-destructive/60" />;
+        return <div title={title} className="h-1.5 w-1.5 rounded-full bg-destructive/60" />;
     }
   };
 
@@ -212,13 +214,23 @@ export function RelayManager({ open }: RelayManagerProps) {
           <div className="overflow-hidden bg-background/50 rounded-lg border border-border/30">
             {useUIStore.getState().isMobile ? (
               <div className="divide-y divide-border/30">
-                {myRelays.map((relay, idx) => (
+                {myRelays.map((relay, idx) => {
+                  const status = statuses.find((s) => s.url === relay.url);
+                  const reason = status?.reason;
+                  return (
                   <div key={idx} className="p-3 group hover:bg-muted/5 transition-colors flex items-center justify-between gap-3">
-                    <div className="flex items-center gap-3 min-w-0 flex-1">
-                      {getHealthDot(relay.url)}
-                      <span className="font-mono text-sm truncate" title={relay.url}>
-                        {relay.url}
-                      </span>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-3 min-w-0">
+                        {getHealthDot(relay.url)}
+                        <span className="font-mono text-sm truncate" title={relay.url}>
+                          {relay.url}
+                        </span>
+                      </div>
+                      {reason ? (
+                        <p className="text-[11px] text-muted-foreground mt-1 break-all">
+                          {reason}
+                        </p>
+                      ) : null}
                     </div>
                     <Button
                       size="icon"
@@ -229,19 +241,30 @@ export function RelayManager({ open }: RelayManagerProps) {
                       <Trash2 className="h-4 w-4" />
                     </Button>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             ) : (
               <Table>
                 <TableBody>
-                  {myRelays.map((relay, idx) => (
+                  {myRelays.map((relay, idx) => {
+                    const status = statuses.find((s) => s.url === relay.url);
+                    const reason = status?.reason;
+                    return (
                     <TableRow key={idx} className="hover:bg-muted/5 group border-b border-border/30 last:border-0 h-8">
                       <TableCell className="py-1">
-                        <div className="flex items-center gap-2">
-                          {getHealthDot(relay.url)}
-                          <span className="font-mono text-xs opacity-80 group-hover:opacity-100 transition-opacity" title={relay.url}>
-                            {relay.url}
-                          </span>
+                        <div className="min-w-0">
+                          <div className="flex items-center gap-2 min-w-0">
+                            {getHealthDot(relay.url)}
+                            <span className="font-mono text-xs opacity-80 group-hover:opacity-100 transition-opacity truncate" title={relay.url}>
+                              {relay.url}
+                            </span>
+                          </div>
+                          {reason ? (
+                            <p className="text-[11px] text-muted-foreground mt-0.5 break-all">
+                              {reason}
+                            </p>
+                          ) : null}
                         </div>
                       </TableCell>
                       <TableCell className="w-8 py-1">
@@ -255,7 +278,8 @@ export function RelayManager({ open }: RelayManagerProps) {
                         </Button>
                       </TableCell>
                     </TableRow>
-                  ))}
+                    );
+                  })}
                 </TableBody>
               </Table>
             )}

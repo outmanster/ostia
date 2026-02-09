@@ -16,7 +16,14 @@ export interface RelayConfig {
 
 export interface RelayStatus {
   url: string;
-  status: "connected" | "connecting" | "disconnected" | string;
+  status: "connected" | "connecting" | "disconnected" | "invalid" | string;
+  reason?: string;
+}
+
+export interface RelayHealthResult {
+  url: string;
+  status: "connected" | "disconnected" | "invalid" | string;
+  reason?: string | null;
 }
 
 interface RelayStore {
@@ -40,7 +47,7 @@ interface RelayStore {
   queryMultipleUsersRelays: (pubkeys: string[]) => Promise<void>;
   getMyRelays: () => Promise<void>;
   publishRelayList: (relays: RelayListEntry[]) => Promise<void>;
-  checkRelayHealth: (url: string) => Promise<boolean>;
+  checkRelayHealth: (url: string) => Promise<RelayHealthResult>;
   checkRelaysHealth: (urls: string[]) => Promise<void>;
   addCustomRelay: (url: string) => Promise<void>;
   removeCustomRelay: (url: string) => Promise<void>;
@@ -162,26 +169,31 @@ export const useRelayStore = create<RelayStore>((set, get) => ({
     }
   },
 
-  checkRelayHealth: async (url: string): Promise<boolean> => {
+  checkRelayHealth: async (url: string): Promise<RelayHealthResult> => {
     set({ isHealthChecking: true });
     try {
-      const healthy = await invoke<boolean>("check_relay_health", { relayUrl: url });
+      const result = await invoke<RelayHealthResult>("check_relay_health", { relayUrl: url });
       set({ isHealthChecking: false });
-      return healthy;
+      return result;
     } catch (error) {
       set({ isHealthChecking: false });
       toast.error(`健康检查失败: ${error}`);
-      return false;
+      return {
+        url,
+        status: "disconnected",
+        reason: String(error),
+      };
     }
   },
 
   checkRelaysHealth: async (urls: string[]) => {
     set({ isHealthChecking: true });
     try {
-      const results = await invoke<[string, boolean][]>("check_relays_health", { relayUrls: urls });
-      const statuses = results.map(([url, healthy]) => ({
-        url,
-        status: healthy ? "connected" : "disconnected",
+      const results = await invoke<RelayHealthResult[]>("check_relays_health", { relayUrls: urls });
+      const statuses = results.map((result) => ({
+        url: result.url,
+        status: result.status,
+        reason: result.reason ?? undefined,
       }));
       set({ statuses, isHealthChecking: false });
     } catch (error) {
