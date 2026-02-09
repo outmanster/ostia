@@ -2,9 +2,9 @@
 
 > 隐私优先的 Nostr 即时通讯应用（端到端加密）
 
-## 当前状态（2026-02-05）
+## 当前状态（2026-02-09）
 
-- 版本：v1.0.0
+- 版本：v1.0.1
 - **已验证平台**：Windows、Android、iOS 均已完成验证测试
 - **功能状态**：
   - Windows：核心功能完整，文本与图片消息正常
@@ -12,7 +12,7 @@
   - iOS：功能完整，已完成验证测试
 
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/outmanster/ostia)
+[![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-blue.svg)](https://github.com/outmanster/ostia)
 
 Ostia 是一个基于 [Nostr 协议](https://nostr.com/) 的跨平台即时通讯应用，强调极简、隐私优先与去中心化。
 
